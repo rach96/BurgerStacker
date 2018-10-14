@@ -1,0 +1,150 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-57497/GLUT-2.7.0.14'
+Configuring GLUT-2.7.0.14...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for GLUT-2.7.0.14..
+Building library for GLUT-2.7.0.14..
+[ 1 of 24] Compiling Graphics.UI.GLUT.Debugging ( src/Graphics/UI/GLUT/Debugging.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Debugging.o )
+[ 2 of 24] Compiling Graphics.UI.GLUT.Raw.Callbacks ( src/Graphics/UI/GLUT/Raw/Callbacks.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Raw/Callbacks.o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 24] Compiling Graphics.UI.GLUT.Raw.Fonts ( src/Graphics/UI/GLUT/Raw/Fonts.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Raw/Fonts.o )
+[ 4 of 24] Compiling Graphics.UI.GLUT.Raw.Functions ( src/Graphics/UI/GLUT/Raw/Functions.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Raw/Functions.o )
+[ 5 of 24] Compiling Graphics.UI.GLUT.Raw.Tokens ( src/Graphics/UI/GLUT/Raw/Tokens.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Raw/Tokens.o )
+[ 6 of 24] Compiling Graphics.UI.GLUT.Raw ( src/Graphics/UI/GLUT/Raw.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Raw.o )
+[ 7 of 24] Compiling Graphics.UI.GLUT.QueryUtils ( src/Graphics/UI/GLUT/QueryUtils.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/QueryUtils.o )
+[ 8 of 24] Compiling Graphics.UI.GLUT.Objects ( src/Graphics/UI/GLUT/Objects.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Objects.o )
+[ 9 of 24] Compiling Graphics.UI.GLUT.Fonts ( src/Graphics/UI/GLUT/Fonts.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Fonts.o )
+[10 of 24] Compiling Graphics.UI.GLUT.DeviceControl ( src/Graphics/UI/GLUT/DeviceControl.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/DeviceControl.o )
+[11 of 24] Compiling Graphics.UI.GLUT.Begin ( src/Graphics/UI/GLUT/Begin.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Begin.o )
+[12 of 24] Compiling Graphics.UI.GLUT.Types ( src/Graphics/UI/GLUT/Types.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Types.o )
+[13 of 24] Compiling Graphics.UI.GLUT.Overlay ( src/Graphics/UI/GLUT/Overlay.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Overlay.o )
+[14 of 24] Compiling Graphics.UI.GLUT.Initialization ( src/Graphics/UI/GLUT/Initialization.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Initialization.o )
+[15 of 24] Compiling Graphics.UI.GLUT.GameMode ( src/Graphics/UI/GLUT/GameMode.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/GameMode.o )
+[16 of 24] Compiling Graphics.UI.GLUT.Colormap ( src/Graphics/UI/GLUT/Colormap.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Colormap.o )
+[17 of 24] Compiling Graphics.UI.GLUT.Window ( src/Graphics/UI/GLUT/Window.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Window.o )
+[18 of 24] Compiling Graphics.UI.GLUT.State ( src/Graphics/UI/GLUT/State.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/State.o )
+[19 of 24] Compiling Graphics.UI.GLUT.Callbacks.Registration ( src/Graphics/UI/GLUT/Callbacks/Registration.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Callbacks/Registration.o )
+[20 of 24] Compiling Graphics.UI.GLUT.Menu ( src/Graphics/UI/GLUT/Menu.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Menu.o )
+[21 of 24] Compiling Graphics.UI.GLUT.Callbacks.Window ( src/Graphics/UI/GLUT/Callbacks/Window.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Callbacks/Window.o )
+[22 of 24] Compiling Graphics.UI.GLUT.Callbacks.Global ( src/Graphics/UI/GLUT/Callbacks/Global.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Callbacks/Global.o )
+[23 of 24] Compiling Graphics.UI.GLUT.Callbacks ( src/Graphics/UI/GLUT/Callbacks.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Callbacks.o )
+[24 of 24] Compiling Graphics.UI.GLUT ( src/Graphics/UI/GLUT.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT.o )
+[ 1 of 24] Compiling Graphics.UI.GLUT.Debugging ( src/Graphics/UI/GLUT/Debugging.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Debugging.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 24] Compiling Graphics.UI.GLUT.Raw.Callbacks ( src/Graphics/UI/GLUT/Raw/Callbacks.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Raw/Callbacks.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 24] Compiling Graphics.UI.GLUT.Raw.Fonts ( src/Graphics/UI/GLUT/Raw/Fonts.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Raw/Fonts.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 24] Compiling Graphics.UI.GLUT.Raw.Functions ( src/Graphics/UI/GLUT/Raw/Functions.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Raw/Functions.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 24] Compiling Graphics.UI.GLUT.Raw.Tokens ( src/Graphics/UI/GLUT/Raw/Tokens.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Raw/Tokens.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 24] Compiling Graphics.UI.GLUT.Raw ( src/Graphics/UI/GLUT/Raw.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Raw.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 24] Compiling Graphics.UI.GLUT.QueryUtils ( src/Graphics/UI/GLUT/QueryUtils.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/QueryUtils.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 24] Compiling Graphics.UI.GLUT.Objects ( src/Graphics/UI/GLUT/Objects.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Objects.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 24] Compiling Graphics.UI.GLUT.Fonts ( src/Graphics/UI/GLUT/Fonts.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Fonts.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 24] Compiling Graphics.UI.GLUT.DeviceControl ( src/Graphics/UI/GLUT/DeviceControl.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/DeviceControl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[11 of 24] Compiling Graphics.UI.GLUT.Begin ( src/Graphics/UI/GLUT/Begin.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Begin.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[12 of 24] Compiling Graphics.UI.GLUT.Types ( src/Graphics/UI/GLUT/Types.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Types.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[13 of 24] Compiling Graphics.UI.GLUT.Overlay ( src/Graphics/UI/GLUT/Overlay.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Overlay.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[14 of 24] Compiling Graphics.UI.GLUT.Initialization ( src/Graphics/UI/GLUT/Initialization.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Initialization.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[15 of 24] Compiling Graphics.UI.GLUT.GameMode ( src/Graphics/UI/GLUT/GameMode.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/GameMode.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[16 of 24] Compiling Graphics.UI.GLUT.Colormap ( src/Graphics/UI/GLUT/Colormap.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Colormap.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[17 of 24] Compiling Graphics.UI.GLUT.Window ( src/Graphics/UI/GLUT/Window.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Window.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[18 of 24] Compiling Graphics.UI.GLUT.State ( src/Graphics/UI/GLUT/State.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/State.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[19 of 24] Compiling Graphics.UI.GLUT.Callbacks.Registration ( src/Graphics/UI/GLUT/Callbacks/Registration.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Callbacks/Registration.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[20 of 24] Compiling Graphics.UI.GLUT.Menu ( src/Graphics/UI/GLUT/Menu.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Menu.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[21 of 24] Compiling Graphics.UI.GLUT.Callbacks.Window ( src/Graphics/UI/GLUT/Callbacks/Window.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Callbacks/Window.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[22 of 24] Compiling Graphics.UI.GLUT.Callbacks.Global ( src/Graphics/UI/GLUT/Callbacks/Global.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Callbacks/Global.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[23 of 24] Compiling Graphics.UI.GLUT.Callbacks ( src/Graphics/UI/GLUT/Callbacks.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT/Callbacks.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[24 of 24] Compiling Graphics.UI.GLUT ( src/Graphics/UI/GLUT.hs, dist/dist-sandbox-3b735470/build/Graphics/UI/GLUT.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for GLUT-2.7.0.14..
+Running Haddock on library for GLUT-2.7.0.14..
+Haddock coverage:
+ 100% (  2 /  2) in 'Graphics.UI.GLUT.Debugging'
+  73% (  8 / 11) in 'Graphics.UI.GLUT.Objects'
+  Missing documentation for:
+    Sides (src/Graphics/UI/GLUT/Objects.hs:133)
+    Rings (src/Graphics/UI/GLUT/Objects.hs:134)
+    NumLevels (src/Graphics/UI/GLUT/Objects.hs:135)
+  75% (  3 /  4) in 'Graphics.UI.GLUT.Fonts'
+  Missing documentation for:
+    Font (src/Graphics/UI/GLUT/Fonts.hs:36)
+ 100% (  6 /  6) in 'Graphics.UI.GLUT.DeviceControl'
+ 100% (  8 /  8) in 'Graphics.UI.GLUT.Begin'
+ 100% ( 11 / 11) in 'Graphics.UI.GLUT.Overlay'
+ 100% ( 29 / 29) in 'Graphics.UI.GLUT.Initialization'
+  91% ( 10 / 11) in 'Graphics.UI.GLUT.GameMode'
+  Missing documentation for:
+    GameModeInfo (src/Graphics/UI/GLUT/GameMode.hs:160)
+ 100% (  5 /  5) in 'Graphics.UI.GLUT.Colormap'
+ 100% ( 37 / 37) in 'Graphics.UI.GLUT.Window'
+ 100% ( 50 / 50) in 'Graphics.UI.GLUT.State'
+  83% (  5 /  6) in 'Graphics.UI.GLUT.Menu'
+  Missing documentation for:
+    MenuCallback (src/Graphics/UI/GLUT/Menu.hs:67)
+  97% ( 86 / 89) in 'Graphics.UI.GLUT.Callbacks.Window'
+  Missing documentation for:
+    WheelNumber (src/Graphics/UI/GLUT/Callbacks/Window.hs:600)
+    WheelDirection (src/Graphics/UI/GLUT/Callbacks/Window.hs:602)
+    MouseWheelCallback (src/Graphics/UI/GLUT/Callbacks/Window.hs:604)
+  67% (  8 / 12) in 'Graphics.UI.GLUT.Callbacks.Global'
+  Missing documentation for:
+    MenuUsage (src/Graphics/UI/GLUT/Callbacks/Global.hs:34)
+    MenuStatusCallback (src/Graphics/UI/GLUT/Callbacks/Global.hs:45)
+    IdleCallback (src/Graphics/UI/GLUT/Callbacks/Global.hs:76)
+    TimerCallback (src/Graphics/UI/GLUT/Callbacks/Global.hs:99)
+ 100% (  3 /  3) in 'Graphics.UI.GLUT.Callbacks'
+ 100% ( 29 / 29) in 'Graphics.UI.GLUT'
+Documentation created: dist/dist-sandbox-3b735470/doc/html/GLUT/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/GLUT-2.7.0.14-CSYH0iN9N805B4wa6nhBxE
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-57497/GLUT-2.7.0.14'

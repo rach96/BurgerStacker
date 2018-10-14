@@ -1,0 +1,24 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-57499/half-0.3'
+Configuring half-0.3...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for half-0.3..
+Building library for half-0.3..
+[1 of 1] Compiling Numeric.Half     ( src/Numeric/Half.hs, dist/dist-sandbox-3b735470/build/Numeric/Half.o )
+[1 of 1] Compiling Numeric.Half     ( src/Numeric/Half.hs, dist/dist-sandbox-3b735470/build/Numeric/Half.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for half-0.3..
+Running Haddock on library for half-0.3..
+Haddock coverage:
+  81% ( 13 / 16) in 'Numeric.Half'
+  Missing documentation for:
+    Half (src/Numeric/Half.hs:71)
+    HALF_MIN_10_EXP (src/Numeric/Half.hs:196)
+    HALF_MAX_10_EXP (src/Numeric/Half.hs:199)
+Documentation created: dist/dist-sandbox-3b735470/doc/html/half/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/half-0.3-EQ7sL9Ks8Aw3nSS1eqfMFq
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-57499/half-0.3'

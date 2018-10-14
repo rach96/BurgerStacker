@@ -1,0 +1,40 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71385/hashable-1.2.7.0'
+Configuring hashable-1.2.7.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for hashable-1.2.7.0..
+Building library for hashable-1.2.7.0..
+[1 of 4] Compiling Data.Hashable.Class ( Data/Hashable/Class.hs, dist/dist-sandbox-3b735470/build/Data/Hashable/Class.o )
+[2 of 4] Compiling Data.Hashable.Generic ( Data/Hashable/Generic.hs, dist/dist-sandbox-3b735470/build/Data/Hashable/Generic.o )
+[3 of 4] Compiling Data.Hashable    ( Data/Hashable.hs, dist/dist-sandbox-3b735470/build/Data/Hashable.o )
+[4 of 4] Compiling Data.Hashable.Lifted ( Data/Hashable/Lifted.hs, dist/dist-sandbox-3b735470/build/Data/Hashable/Lifted.o )
+[1 of 4] Compiling Data.Hashable.Class ( Data/Hashable/Class.hs, dist/dist-sandbox-3b735470/build/Data/Hashable/Class.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 4] Compiling Data.Hashable.Generic ( Data/Hashable/Generic.hs, dist/dist-sandbox-3b735470/build/Data/Hashable/Generic.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[3 of 4] Compiling Data.Hashable    ( Data/Hashable.hs, dist/dist-sandbox-3b735470/build/Data/Hashable.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[4 of 4] Compiling Data.Hashable.Lifted ( Data/Hashable/Lifted.hs, dist/dist-sandbox-3b735470/build/Data/Hashable/Lifted.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for hashable-1.2.7.0..
+Running Haddock on library for hashable-1.2.7.0..
+Haddock coverage:
+ 100% ( 28 / 28) in 'Data.Hashable'
+  80% (  8 / 10) in 'Data.Hashable.Lifted'
+  Missing documentation for:
+    Hashable1 (Data/Hashable/Class.hs:253)
+    Hashable2 (Data/Hashable/Class.hs:261)
+Warning: Data.Hashable: could not find link destinations for:
+    GHashable Zero
+Warning: Data.Hashable.Lifted: could not find link destinations for:
+    GHashable One
+Documentation created: dist/dist-sandbox-3b735470/doc/html/hashable/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/hashable-1.2.7.0-Q2TKVDwk4GBEHmizb4teZ
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71385/hashable-1.2.7.0'

@@ -1,0 +1,18 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-57497/ObjectName-1.1.0.1'
+Configuring ObjectName-1.1.0.1...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for ObjectName-1.1.0.1..
+Building library for ObjectName-1.1.0.1..
+[1 of 1] Compiling Data.ObjectName  ( src/Data/ObjectName.hs, dist/dist-sandbox-3b735470/build/Data/ObjectName.o )
+[1 of 1] Compiling Data.ObjectName  ( src/Data/ObjectName.hs, dist/dist-sandbox-3b735470/build/Data/ObjectName.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for ObjectName-1.1.0.1..
+Running Haddock on library for ObjectName-1.1.0.1..
+Haddock coverage:
+ 100% (  3 /  3) in 'Data.ObjectName'
+Documentation created:
+dist/dist-sandbox-3b735470/doc/html/ObjectName/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/ObjectName-1.1.0.1-CHN2W1qj7Kj3K9d7qtMTxi
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-57497/ObjectName-1.1.0.1'

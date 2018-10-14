@@ -1,0 +1,387 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71385/binary-bits-0.5'
+Configuring binary-bits-0.5...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for binary-bits-0.5..
+Building library for binary-bits-0.5..
+[1 of 3] Compiling Data.Binary.Bits.Get ( Data/Binary/Bits/Get.hs, dist/dist-sandbox-3b735470/build/Data/Binary/Bits/Get.o )
+
+Data/Binary/Bits/Get.hs:86:1: warning: [-Wunused-imports]
+    The import of ‘B.getByteString, runGet’
+    from module ‘Data.Binary.Get’ is redundant
+   |
+86 | import Data.Binary.Get as B ( runGet, Get, getByteString, getLazyByteString, isEmpty )
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:207:1: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘readWord8’: Patterns not matched: _ (S _ _)
+    |
+207 | readWord8 n (S bs o)
+    | ^^^^^^^^^^^^^^^^^^^^...
+
+Data/Binary/Bits/Get.hs:293:1: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘readWithoutOffset’:
+        Patterns not matched: (S _ _) _ _ _
+    |
+293 | readWithoutOffset (S bs o) shifterL shifterR n
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Data/Binary/Bits/Get.hs:299:22: warning: [-Wname-shadowing]
+    This binding for ‘n’ shadows the existing binding
+      bound at Data/Binary/Bits/Get.hs:293:46
+    |
+299 |                   bn n = (bn (n-1) `shifterL` 8) .|. fromIntegral (unsafeIndex bs n)
+    |                      ^
+
+Data/Binary/Bits/Get.hs:307:22: warning: [-Wname-shadowing]
+    This binding for ‘n’ shadows the existing binding
+      bound at Data/Binary/Bits/Get.hs:293:46
+    |
+307 |                   bn n = (bn (n-1) `shifterL` 8) .|. fromIntegral (unsafeIndex bs n)
+    |                      ^
+
+Data/Binary/Bits/Get.hs:311:19: warning: [-Wname-shadowing]
+    This binding for ‘last’ shadows the existing bindings
+      imported from ‘Data.ByteString’ at Data/Binary/Bits/Get.hs:89:1-27
+      imported from ‘Prelude’ at Data/Binary/Bits/Get.hs:97:1-19
+      (and originally defined in ‘GHC.List’)
+    |
+311 |                   last = (fromIntegral (unsafeIndex bs segs)) `shifterR` (8 - o')
+    |                   ^^^^
+
+Data/Binary/Bits/Get.hs:318:1: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘readWithOffset’:
+        Patterns not matched: (S _ _) _ _ _
+    |
+318 | readWithOffset (S bs o) shifterL shifterR n
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Data/Binary/Bits/Get.hs:326:22: warning: [-Wname-shadowing]
+    This binding for ‘n’ shadows the existing binding
+      bound at Data/Binary/Bits/Get.hs:318:43
+    |
+326 |                   bn n = (bn (n-1) `shifterL` 8) .|. fromIntegral (unsafeIndex bs n)
+    |                      ^
+
+Data/Binary/Bits/Get.hs:332:19: warning: [-Wname-shadowing]
+    This binding for ‘last’ shadows the existing bindings
+      imported from ‘Data.ByteString’ at Data/Binary/Bits/Get.hs:89:1-27
+      imported from ‘Prelude’ at Data/Binary/Bits/Get.hs:97:1-19
+      (and originally defined in ‘GHC.List’)
+    |
+332 |                   last | o' > 0 = (fromIntegral (unsafeIndex bs (segs + 1))) `shifterR` (8 - o')
+    |                   ^^^^
+
+Data/Binary/Bits/Get.hs:470:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘shiftl_w8’
+    |
+470 | shiftl_w8  (W8#  w) (I# i) = W8# (w `uncheckedShiftL#`   i)
+    | ^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:470:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      shiftl_w8 :: Word8 -> Int -> Word8
+    |
+470 | shiftl_w8  (W8#  w) (I# i) = W8# (w `uncheckedShiftL#`   i)
+    | ^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:474:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      shiftr_w8 :: Word8 -> Int -> Word8
+    |
+474 | shiftr_w8  (W8#  w) (I# i) = W8# (w `uncheckedShiftRL#`   i)
+    | ^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:475:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      shiftr_w16 :: Word16 -> Int -> Word16
+    |
+475 | shiftr_w16 (W16# w) (I# i) = W16# (w `uncheckedShiftRL#`  i)
+    | ^^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:476:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      shiftr_w32 :: Word32 -> Int -> Word32
+    |
+476 | shiftr_w32 (W32# w) (I# i) = W32# (w `uncheckedShiftRL#`  i)
+    | ^^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:481:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      shiftr_w64 :: Word64 -> Int -> Word64
+    |
+481 | shiftr_w64 (W64# w) (I# i) = W64# (w `uncheckedShiftRL64#` i)
+    | ^^^^^^^^^^
+[2 of 3] Compiling Data.Binary.Bits.Put ( Data/Binary/Bits/Put.hs, dist/dist-sandbox-3b735470/build/Data/Binary/Bits/Put.o )
+
+Data/Binary/Bits/Put.hs:41:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+   |
+41 | import Control.Applicative
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/Binary/Bits/Put.hs:43:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+   |
+43 | import Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^
+[3 of 3] Compiling Data.Binary.Bits ( Data/Binary/Bits.hs, dist/dist-sandbox-3b735470/build/Data/Binary/Bits.o )
+[1 of 3] Compiling Data.Binary.Bits.Get ( Data/Binary/Bits/Get.hs, dist/dist-sandbox-3b735470/build/Data/Binary/Bits/Get.p_o )
+
+Data/Binary/Bits/Get.hs:86:1: warning: [-Wunused-imports]
+    The import of ‘B.getByteString, runGet’
+    from module ‘Data.Binary.Get’ is redundant
+   |
+86 | import Data.Binary.Get as B ( runGet, Get, getByteString, getLazyByteString, isEmpty )
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:207:1: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘readWord8’: Patterns not matched: _ (S _ _)
+    |
+207 | readWord8 n (S bs o)
+    | ^^^^^^^^^^^^^^^^^^^^...
+
+Data/Binary/Bits/Get.hs:293:1: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘readWithoutOffset’:
+        Patterns not matched: (S _ _) _ _ _
+    |
+293 | readWithoutOffset (S bs o) shifterL shifterR n
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Data/Binary/Bits/Get.hs:299:22: warning: [-Wname-shadowing]
+    This binding for ‘n’ shadows the existing binding
+      bound at Data/Binary/Bits/Get.hs:293:46
+    |
+299 |                   bn n = (bn (n-1) `shifterL` 8) .|. fromIntegral (unsafeIndex bs n)
+    |                      ^
+
+Data/Binary/Bits/Get.hs:307:22: warning: [-Wname-shadowing]
+    This binding for ‘n’ shadows the existing binding
+      bound at Data/Binary/Bits/Get.hs:293:46
+    |
+307 |                   bn n = (bn (n-1) `shifterL` 8) .|. fromIntegral (unsafeIndex bs n)
+    |                      ^
+
+Data/Binary/Bits/Get.hs:311:19: warning: [-Wname-shadowing]
+    This binding for ‘last’ shadows the existing bindings
+      imported from ‘Data.ByteString’ at Data/Binary/Bits/Get.hs:89:1-27
+      imported from ‘Prelude’ at Data/Binary/Bits/Get.hs:97:1-19
+      (and originally defined in ‘GHC.List’)
+    |
+311 |                   last = (fromIntegral (unsafeIndex bs segs)) `shifterR` (8 - o')
+    |                   ^^^^
+
+Data/Binary/Bits/Get.hs:318:1: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘readWithOffset’:
+        Patterns not matched: (S _ _) _ _ _
+    |
+318 | readWithOffset (S bs o) shifterL shifterR n
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Data/Binary/Bits/Get.hs:326:22: warning: [-Wname-shadowing]
+    This binding for ‘n’ shadows the existing binding
+      bound at Data/Binary/Bits/Get.hs:318:43
+    |
+326 |                   bn n = (bn (n-1) `shifterL` 8) .|. fromIntegral (unsafeIndex bs n)
+    |                      ^
+
+Data/Binary/Bits/Get.hs:332:19: warning: [-Wname-shadowing]
+    This binding for ‘last’ shadows the existing bindings
+      imported from ‘Data.ByteString’ at Data/Binary/Bits/Get.hs:89:1-27
+      imported from ‘Prelude’ at Data/Binary/Bits/Get.hs:97:1-19
+      (and originally defined in ‘GHC.List’)
+    |
+332 |                   last | o' > 0 = (fromIntegral (unsafeIndex bs (segs + 1))) `shifterR` (8 - o')
+    |                   ^^^^
+
+Data/Binary/Bits/Get.hs:470:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘shiftl_w8’
+    |
+470 | shiftl_w8  (W8#  w) (I# i) = W8# (w `uncheckedShiftL#`   i)
+    | ^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:470:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      shiftl_w8 :: Word8 -> Int -> Word8
+    |
+470 | shiftl_w8  (W8#  w) (I# i) = W8# (w `uncheckedShiftL#`   i)
+    | ^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:474:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      shiftr_w8 :: Word8 -> Int -> Word8
+    |
+474 | shiftr_w8  (W8#  w) (I# i) = W8# (w `uncheckedShiftRL#`   i)
+    | ^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:475:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      shiftr_w16 :: Word16 -> Int -> Word16
+    |
+475 | shiftr_w16 (W16# w) (I# i) = W16# (w `uncheckedShiftRL#`  i)
+    | ^^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:476:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      shiftr_w32 :: Word32 -> Int -> Word32
+    |
+476 | shiftr_w32 (W32# w) (I# i) = W32# (w `uncheckedShiftRL#`  i)
+    | ^^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:481:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      shiftr_w64 :: Word64 -> Int -> Word64
+    |
+481 | shiftr_w64 (W64# w) (I# i) = W64# (w `uncheckedShiftRL64#` i)
+    | ^^^^^^^^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 3] Compiling Data.Binary.Bits.Put ( Data/Binary/Bits/Put.hs, dist/dist-sandbox-3b735470/build/Data/Binary/Bits/Put.p_o )
+
+Data/Binary/Bits/Put.hs:41:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+   |
+41 | import Control.Applicative
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/Binary/Bits/Put.hs:43:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+   |
+43 | import Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[3 of 3] Compiling Data.Binary.Bits ( Data/Binary/Bits.hs, dist/dist-sandbox-3b735470/build/Data/Binary/Bits.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for binary-bits-0.5..
+Running Haddock on library for binary-bits-0.5..
+
+Data/Binary/Bits/Get.hs:86:1: warning: [-Wunused-imports]
+    The import of ‘B.getByteString, runGet’
+    from module ‘Data.Binary.Get’ is redundant
+   |
+86 | import Data.Binary.Get as B ( runGet, Get, getByteString, getLazyByteString, isEmpty )
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:299:22: warning: [-Wname-shadowing]
+    This binding for ‘n’ shadows the existing binding
+      bound at Data/Binary/Bits/Get.hs:293:46
+    |
+299 |                   bn n = (bn (n-1) `shifterL` 8) .|. fromIntegral (unsafeIndex bs n)
+    |                      ^
+
+Data/Binary/Bits/Get.hs:307:22: warning: [-Wname-shadowing]
+    This binding for ‘n’ shadows the existing binding
+      bound at Data/Binary/Bits/Get.hs:293:46
+    |
+307 |                   bn n = (bn (n-1) `shifterL` 8) .|. fromIntegral (unsafeIndex bs n)
+    |                      ^
+
+Data/Binary/Bits/Get.hs:311:19: warning: [-Wname-shadowing]
+    This binding for ‘last’ shadows the existing bindings
+      imported from ‘Data.ByteString’ at Data/Binary/Bits/Get.hs:89:1-27
+      imported from ‘Prelude’ at Data/Binary/Bits/Get.hs:97:1-19
+      (and originally defined in ‘GHC.List’)
+    |
+311 |                   last = (fromIntegral (unsafeIndex bs segs)) `shifterR` (8 - o')
+    |                   ^^^^
+
+Data/Binary/Bits/Get.hs:326:22: warning: [-Wname-shadowing]
+    This binding for ‘n’ shadows the existing binding
+      bound at Data/Binary/Bits/Get.hs:318:43
+    |
+326 |                   bn n = (bn (n-1) `shifterL` 8) .|. fromIntegral (unsafeIndex bs n)
+    |                      ^
+
+Data/Binary/Bits/Get.hs:332:19: warning: [-Wname-shadowing]
+    This binding for ‘last’ shadows the existing bindings
+      imported from ‘Data.ByteString’ at Data/Binary/Bits/Get.hs:89:1-27
+      imported from ‘Prelude’ at Data/Binary/Bits/Get.hs:97:1-19
+      (and originally defined in ‘GHC.List’)
+    |
+332 |                   last | o' > 0 = (fromIntegral (unsafeIndex bs (segs + 1))) `shifterR` (8 - o')
+    |                   ^^^^
+
+Data/Binary/Bits/Get.hs:470:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘shiftl_w8’
+    |
+470 | shiftl_w8  (W8#  w) (I# i) = W8# (w `uncheckedShiftL#`   i)
+    | ^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:470:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      shiftl_w8 :: Word8 -> Int -> Word8
+    |
+470 | shiftl_w8  (W8#  w) (I# i) = W8# (w `uncheckedShiftL#`   i)
+    | ^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:474:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      shiftr_w8 :: Word8 -> Int -> Word8
+    |
+474 | shiftr_w8  (W8#  w) (I# i) = W8# (w `uncheckedShiftRL#`   i)
+    | ^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:475:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      shiftr_w16 :: Word16 -> Int -> Word16
+    |
+475 | shiftr_w16 (W16# w) (I# i) = W16# (w `uncheckedShiftRL#`  i)
+    | ^^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:476:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      shiftr_w32 :: Word32 -> Int -> Word32
+    |
+476 | shiftr_w32 (W32# w) (I# i) = W32# (w `uncheckedShiftRL#`  i)
+    | ^^^^^^^^^^
+
+Data/Binary/Bits/Get.hs:481:1: warning: [-Wmissing-signatures]
+    Top-level binding with no type signature:
+      shiftr_w64 :: Word64 -> Int -> Word64
+    |
+481 | shiftr_w64 (W64# w) (I# i) = W64# (w `uncheckedShiftRL64#` i)
+    | ^^^^^^^^^^
+
+Data/Binary/Bits/Put.hs:41:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+   |
+41 | import Control.Applicative
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Data/Binary/Bits/Put.hs:43:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+   |
+43 | import Data.Monoid
+   | ^^^^^^^^^^^^^^^^^^
+Haddock coverage:
+ 100% ( 25 / 25) in 'Data.Binary.Bits.Get'
+  93% ( 13 / 14) in 'Data.Binary.Bits.Put'
+  Missing documentation for:
+    BitPut (Data/Binary/Bits/Put.hs:46)
+  50% (  1 /  2) in 'Data.Binary.Bits'
+  Missing documentation for:
+    BinaryBit (Data/Binary/Bits.hs:23)
+Documentation created:
+dist/dist-sandbox-3b735470/doc/html/binary-bits/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/binary-bits-0.5-86rVG2rPLFe3zd0Ky6lRPv
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71385/binary-bits-0.5'

@@ -1,0 +1,29 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71385/th-abstraction-0.2.8.0'
+Configuring th-abstraction-0.2.8.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for th-abstraction-0.2.8.0..
+Building library for th-abstraction-0.2.8.0..
+[1 of 2] Compiling Language.Haskell.TH.Datatype.Internal ( src/Language/Haskell/TH/Datatype/Internal.hs, dist/dist-sandbox-3b735470/build/Language/Haskell/TH/Datatype/Internal.o )
+[2 of 2] Compiling Language.Haskell.TH.Datatype ( src/Language/Haskell/TH/Datatype.hs, dist/dist-sandbox-3b735470/build/Language/Haskell/TH/Datatype.o )
+[1 of 2] Compiling Language.Haskell.TH.Datatype.Internal ( src/Language/Haskell/TH/Datatype/Internal.hs, dist/dist-sandbox-3b735470/build/Language/Haskell/TH/Datatype/Internal.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 2] Compiling Language.Haskell.TH.Datatype ( src/Language/Haskell/TH/Datatype.hs, dist/dist-sandbox-3b735470/build/Language/Haskell/TH/Datatype.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for th-abstraction-0.2.8.0..
+Running Haddock on library for th-abstraction-0.2.8.0..
+Haddock coverage:
+  92% ( 47 / 51) in 'Language.Haskell.TH.Datatype'
+  Missing documentation for:
+    arrowKCompat (src/Language/Haskell/TH/Datatype.hs:1655)
+    isStrictAnnot (src/Language/Haskell/TH/Datatype.hs:257)
+    notStrictAnnot (src/Language/Haskell/TH/Datatype.hs:257)
+    unpackedAnnot (src/Language/Haskell/TH/Datatype.hs:257)
+Warning: Language.Haskell.TH.Datatype: could not find link destinations for:
+    mergeArguments
+Documentation created:
+dist/dist-sandbox-3b735470/doc/html/th-abstraction/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/th-abstraction-0.2.8.0-Ct896m4STpK8GA15Cl5y88
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71385/th-abstraction-0.2.8.0'

@@ -1,0 +1,220 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-69619/JuicyPixels-3.3.2'
+Configuring JuicyPixels-3.3.2...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for JuicyPixels-3.3.2..
+Building library for JuicyPixels-3.3.2..
+[ 1 of 30] Compiling Codec.Picture.InternalHelper ( src/Codec/Picture/InternalHelper.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/InternalHelper.o )
+[ 2 of 30] Compiling Codec.Picture.Metadata.Exif ( src/Codec/Picture/Metadata/Exif.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Metadata/Exif.o )
+[ 3 of 30] Compiling Codec.Picture.Metadata ( src/Codec/Picture/Metadata.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Metadata.o )
+[ 4 of 30] Compiling Codec.Picture.Tiff.Types ( src/Codec/Picture/Tiff/Types.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Tiff/Types.o )
+[ 5 of 30] Compiling Codec.Picture.Tiff.Metadata ( src/Codec/Picture/Tiff/Metadata.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Tiff/Metadata.o )
+[ 6 of 30] Compiling Codec.Picture.Types ( src/Codec/Picture/Types.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Types.o )
+[ 7 of 30] Compiling Codec.Picture.Png.Type ( src/Codec/Picture/Png/Type.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Png/Type.o )
+[ 8 of 30] Compiling Codec.Picture.Png.Metadata ( src/Codec/Picture/Png/Metadata.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Png/Metadata.o )
+[ 9 of 30] Compiling Codec.Picture.ColorQuant ( src/Codec/Picture/ColorQuant.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/ColorQuant.o )
+
+src/Codec/Picture/ColorQuant.hs:123:26: warning: [-Woverflowed-literals]
+    Literal 256 is out of the GHC.Word.Word8 range 0..255
+    |
+123 |       (PixelRGB8 (r .&. (256 - dr)) (g .&. (256 - dg)) (b .&. (256 - db)))
+    |                          ^^^
+
+src/Codec/Picture/ColorQuant.hs:123:45: warning: [-Woverflowed-literals]
+    Literal 256 is out of the GHC.Word.Word8 range 0..255
+    |
+123 |       (PixelRGB8 (r .&. (256 - dr)) (g .&. (256 - dg)) (b .&. (256 - db)))
+    |                                             ^^^
+
+src/Codec/Picture/ColorQuant.hs:123:64: warning: [-Woverflowed-literals]
+    Literal 256 is out of the GHC.Word.Word8 range 0..255
+    |
+123 |       (PixelRGB8 (r .&. (256 - dr)) (g .&. (256 - dg)) (b .&. (256 - db)))
+    |                                                                ^^^
+[10 of 30] Compiling Codec.Picture.VectorByteConversion ( src/Codec/Picture/VectorByteConversion.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/VectorByteConversion.o )
+[11 of 30] Compiling Codec.Picture.Tga ( src/Codec/Picture/Tga.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Tga.o )
+[12 of 30] Compiling Codec.Picture.Png.Export ( src/Codec/Picture/Png/Export.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Png/Export.o )
+[13 of 30] Compiling Codec.Picture.Png ( src/Codec/Picture/Png.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Png.o )
+[14 of 30] Compiling Codec.Picture.HDR ( src/Codec/Picture/HDR.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/HDR.o )
+[15 of 30] Compiling Codec.Picture.Bitmap ( src/Codec/Picture/Bitmap.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Bitmap.o )
+[16 of 30] Compiling Codec.Picture.BitWriter ( src/Codec/Picture/BitWriter.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/BitWriter.o )
+[17 of 30] Compiling Codec.Picture.Jpg.DefaultTable ( src/Codec/Picture/Jpg/DefaultTable.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg/DefaultTable.o )
+[18 of 30] Compiling Codec.Picture.Jpg.Types ( src/Codec/Picture/Jpg/Types.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg/Types.o )
+[19 of 30] Compiling Codec.Picture.Jpg.Metadata ( src/Codec/Picture/Jpg/Metadata.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg/Metadata.o )
+[20 of 30] Compiling Codec.Picture.Jpg.FastIdct ( src/Codec/Picture/Jpg/FastIdct.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg/FastIdct.o )
+[21 of 30] Compiling Codec.Picture.Jpg.FastDct ( src/Codec/Picture/Jpg/FastDct.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg/FastDct.o )
+[22 of 30] Compiling Codec.Picture.Jpg.Common ( src/Codec/Picture/Jpg/Common.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg/Common.o )
+[23 of 30] Compiling Codec.Picture.Jpg.Progressive ( src/Codec/Picture/Jpg/Progressive.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg/Progressive.o )
+[24 of 30] Compiling Codec.Picture.Jpg ( src/Codec/Picture/Jpg.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg.o )
+[25 of 30] Compiling Codec.Picture.Gif.LZWEncoding ( src/Codec/Picture/Gif/LZWEncoding.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Gif/LZWEncoding.o )
+[26 of 30] Compiling Codec.Picture.Gif.LZW ( src/Codec/Picture/Gif/LZW.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Gif/LZW.o )
+[27 of 30] Compiling Codec.Picture.Tiff ( src/Codec/Picture/Tiff.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Tiff.o )
+[28 of 30] Compiling Codec.Picture.Gif ( src/Codec/Picture/Gif.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Gif.o )
+[29 of 30] Compiling Codec.Picture.Saving ( src/Codec/Picture/Saving.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Saving.o )
+[30 of 30] Compiling Codec.Picture    ( src/Codec/Picture.hs, dist/dist-sandbox-3b735470/build/Codec/Picture.o )
+[ 1 of 30] Compiling Codec.Picture.InternalHelper ( src/Codec/Picture/InternalHelper.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/InternalHelper.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 30] Compiling Codec.Picture.Metadata.Exif ( src/Codec/Picture/Metadata/Exif.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Metadata/Exif.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 30] Compiling Codec.Picture.Metadata ( src/Codec/Picture/Metadata.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Metadata.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 30] Compiling Codec.Picture.Tiff.Types ( src/Codec/Picture/Tiff/Types.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Tiff/Types.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 30] Compiling Codec.Picture.Tiff.Metadata ( src/Codec/Picture/Tiff/Metadata.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Tiff/Metadata.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 30] Compiling Codec.Picture.Types ( src/Codec/Picture/Types.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Types.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 30] Compiling Codec.Picture.Png.Type ( src/Codec/Picture/Png/Type.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Png/Type.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 30] Compiling Codec.Picture.Png.Metadata ( src/Codec/Picture/Png/Metadata.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Png/Metadata.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 30] Compiling Codec.Picture.ColorQuant ( src/Codec/Picture/ColorQuant.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/ColorQuant.p_o )
+
+src/Codec/Picture/ColorQuant.hs:123:26: warning: [-Woverflowed-literals]
+    Literal 256 is out of the GHC.Word.Word8 range 0..255
+    |
+123 |       (PixelRGB8 (r .&. (256 - dr)) (g .&. (256 - dg)) (b .&. (256 - db)))
+    |                          ^^^
+
+src/Codec/Picture/ColorQuant.hs:123:45: warning: [-Woverflowed-literals]
+    Literal 256 is out of the GHC.Word.Word8 range 0..255
+    |
+123 |       (PixelRGB8 (r .&. (256 - dr)) (g .&. (256 - dg)) (b .&. (256 - db)))
+    |                                             ^^^
+
+src/Codec/Picture/ColorQuant.hs:123:64: warning: [-Woverflowed-literals]
+    Literal 256 is out of the GHC.Word.Word8 range 0..255
+    |
+123 |       (PixelRGB8 (r .&. (256 - dr)) (g .&. (256 - dg)) (b .&. (256 - db)))
+    |                                                                ^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 30] Compiling Codec.Picture.VectorByteConversion ( src/Codec/Picture/VectorByteConversion.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/VectorByteConversion.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[11 of 30] Compiling Codec.Picture.Tga ( src/Codec/Picture/Tga.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Tga.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[12 of 30] Compiling Codec.Picture.Png.Export ( src/Codec/Picture/Png/Export.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Png/Export.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[13 of 30] Compiling Codec.Picture.Png ( src/Codec/Picture/Png.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Png.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[14 of 30] Compiling Codec.Picture.HDR ( src/Codec/Picture/HDR.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/HDR.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[15 of 30] Compiling Codec.Picture.Bitmap ( src/Codec/Picture/Bitmap.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Bitmap.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[16 of 30] Compiling Codec.Picture.BitWriter ( src/Codec/Picture/BitWriter.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/BitWriter.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[17 of 30] Compiling Codec.Picture.Jpg.DefaultTable ( src/Codec/Picture/Jpg/DefaultTable.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg/DefaultTable.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[18 of 30] Compiling Codec.Picture.Jpg.Types ( src/Codec/Picture/Jpg/Types.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg/Types.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[19 of 30] Compiling Codec.Picture.Jpg.Metadata ( src/Codec/Picture/Jpg/Metadata.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg/Metadata.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[20 of 30] Compiling Codec.Picture.Jpg.FastIdct ( src/Codec/Picture/Jpg/FastIdct.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg/FastIdct.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[21 of 30] Compiling Codec.Picture.Jpg.FastDct ( src/Codec/Picture/Jpg/FastDct.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg/FastDct.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[22 of 30] Compiling Codec.Picture.Jpg.Common ( src/Codec/Picture/Jpg/Common.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg/Common.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[23 of 30] Compiling Codec.Picture.Jpg.Progressive ( src/Codec/Picture/Jpg/Progressive.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg/Progressive.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[24 of 30] Compiling Codec.Picture.Jpg ( src/Codec/Picture/Jpg.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Jpg.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[25 of 30] Compiling Codec.Picture.Gif.LZWEncoding ( src/Codec/Picture/Gif/LZWEncoding.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Gif/LZWEncoding.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[26 of 30] Compiling Codec.Picture.Gif.LZW ( src/Codec/Picture/Gif/LZW.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Gif/LZW.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[27 of 30] Compiling Codec.Picture.Tiff ( src/Codec/Picture/Tiff.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Tiff.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[28 of 30] Compiling Codec.Picture.Gif ( src/Codec/Picture/Gif.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Gif.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[29 of 30] Compiling Codec.Picture.Saving ( src/Codec/Picture/Saving.hs, dist/dist-sandbox-3b735470/build/Codec/Picture/Saving.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[30 of 30] Compiling Codec.Picture    ( src/Codec/Picture.hs, dist/dist-sandbox-3b735470/build/Codec/Picture.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for JuicyPixels-3.3.2..
+Running Haddock on library for JuicyPixels-3.3.2..
+
+src/Codec/Picture/ColorQuant.hs:123:26: warning: [-Woverflowed-literals]
+    Literal 256 is out of the GHC.Word.Word8 range 0..255
+    |
+123 |       (PixelRGB8 (r .&. (256 - dr)) (g .&. (256 - dg)) (b .&. (256 - db)))
+    |                          ^^^
+
+src/Codec/Picture/ColorQuant.hs:123:45: warning: [-Woverflowed-literals]
+    Literal 256 is out of the GHC.Word.Word8 range 0..255
+    |
+123 |       (PixelRGB8 (r .&. (256 - dr)) (g .&. (256 - dg)) (b .&. (256 - db)))
+    |                                             ^^^
+
+src/Codec/Picture/ColorQuant.hs:123:64: warning: [-Woverflowed-literals]
+    Literal 256 is out of the GHC.Word.Word8 range 0..255
+    |
+123 |       (PixelRGB8 (r .&. (256 - dr)) (g .&. (256 - dg)) (b .&. (256 - db)))
+    |                                                                ^^^
+Haddock coverage:
+  83% (  5 /  6) in 'Codec.Picture.Metadata.Exif'
+  Missing documentation for:
+    isInIFD0 (src/Codec/Picture/Metadata/Exif.hs:192)
+ 100% ( 26 / 26) in 'Codec.Picture.Metadata'
+ 100% ( 81 / 81) in 'Codec.Picture.Types'
+ 100% (  5 /  5) in 'Codec.Picture.ColorQuant'
+ 100% (  7 /  7) in 'Codec.Picture.Tga'
+ 100% ( 10 / 10) in 'Codec.Picture.Png'
+ 100% (  8 /  8) in 'Codec.Picture.HDR'
+ 100% ( 13 / 13) in 'Codec.Picture.Bitmap'
+ 100% (  8 /  8) in 'Codec.Picture.Jpg'
+ 100% (  7 /  7) in 'Codec.Picture.Tiff'
+  91% ( 20 / 22) in 'Codec.Picture.Gif'
+  Missing documentation for:
+    GifDisposalMethod (src/Codec/Picture/Gif.hs:271)
+    writeComplexGifImage (src/Codec/Picture/Gif.hs:1005)
+ 100% (  8 /  8) in 'Codec.Picture.Saving'
+Cannot find documentation for: $graph
+ 100% (109 /109) in 'Codec.Picture'
+Warning: Codec.Picture.Types: could not find link destinations for:
+    colorSpaceOfPixel TiffColorspace extraSampleCodeOfPixel ExtraSample subSamplingInfo sampleFormat TiffSampleFormat toComponentIndex tgaDataOfImage tgaPixelDepthOfImage tgaTypeOfImage TgaImageType bitsPerPixel bmpEncode defaultPalette BmpPalette additionalBlocks JpgFrame componentsOfColorSpace JpgComponent encodingState EncoderState imageHuffmanTables JpgHuffmanTableSpec HuffmanPackedTree scanSpecificationOfColorSpace JpgScanSpecification quantTableSpec JpgQuantTableSpec maximumSubSamplingOf
+Warning: Codec.Picture.ColorQuant: could not find link destinations for:
+    Fold fold
+Warning: Codec.Picture.Tga: could not find link destinations for:
+    tgaDataOfImage tgaPixelDepthOfImage tgaTypeOfImage TgaImageType
+Warning: Codec.Picture.Bitmap: could not find link destinations for:
+    BmpPalette encodeBitmapWithPalette bitsPerPixel bmpEncode defaultPalette
+Warning: Codec.Picture.Jpg: could not find link destinations for:
+    componentsOfColorSpace encodingState scanSpecificationOfColorSpace additionalBlocks JpgFrame JpgComponent EncoderState imageHuffmanTables JpgHuffmanTableSpec HuffmanPackedTree JpgScanSpecification quantTableSpec JpgQuantTableSpec maximumSubSamplingOf
+Warning: Codec.Picture.Tiff: could not find link destinations for:
+    colorSpaceOfPixel TiffColorspace extraSampleCodeOfPixel ExtraSample subSamplingInfo sampleFormat TiffSampleFormat
+Warning: Codec.Picture: could not find link destinations for:
+    bitsPerPixel bmpEncode defaultPalette BmpPalette tgaDataOfImage tgaPixelDepthOfImage tgaTypeOfImage TgaImageType colorSpaceOfPixel TiffColorspace extraSampleCodeOfPixel ExtraSample subSamplingInfo sampleFormat TiffSampleFormat toComponentIndex additionalBlocks JpgFrame componentsOfColorSpace JpgComponent encodingState EncoderState imageHuffmanTables JpgHuffmanTableSpec HuffmanPackedTree scanSpecificationOfColorSpace JpgScanSpecification quantTableSpec JpgQuantTableSpec maximumSubSamplingOf
+Documentation created:
+dist/dist-sandbox-3b735470/doc/html/JuicyPixels/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/JuicyPixels-3.3.2-7AxAT8p1exGFr9JACDTvtM
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-69619/JuicyPixels-3.3.2'

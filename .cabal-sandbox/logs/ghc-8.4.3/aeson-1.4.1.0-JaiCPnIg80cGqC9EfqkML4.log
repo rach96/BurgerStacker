@@ -1,0 +1,303 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71382/aeson-1.4.1.0'
+Configuring aeson-1.4.1.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for aeson-1.4.1.0..
+Building library for aeson-1.4.1.0..
+[ 1 of 24] Compiling Data.Aeson.Compat ( Data/Aeson/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Compat.o )
+[ 2 of 24] Compiling Data.Aeson.Internal.Functions ( Data/Aeson/Internal/Functions.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Internal/Functions.o )
+[ 3 of 24] Compiling Data.Aeson.Parser.UnescapePure ( pure/Data/Aeson/Parser/UnescapePure.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Parser/UnescapePure.o )
+[ 4 of 24] Compiling Data.Aeson.Parser.Unescape ( Data/Aeson/Parser/Unescape.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Parser/Unescape.o )
+[ 5 of 24] Compiling Data.Aeson.Types.Generic ( Data/Aeson/Types/Generic.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Types/Generic.o )
+[ 6 of 24] Compiling Data.Aeson.Types.Internal ( Data/Aeson/Types/Internal.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Types/Internal.o )
+[ 7 of 24] Compiling Data.Aeson.Parser.Internal ( Data/Aeson/Parser/Internal.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Parser/Internal.o )
+[ 8 of 24] Compiling Data.Aeson.Parser ( Data/Aeson/Parser.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Parser.o )
+[ 9 of 24] Compiling Data.Attoparsec.Time.Internal ( attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs, dist/dist-sandbox-3b735470/build/Data/Attoparsec/Time/Internal.o )
+
+attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs:24:1: warning: [-Wunused-imports]
+    The import of ‘Unsafe.Coerce’ is redundant
+      except perhaps to import instances from ‘Unsafe.Coerce’
+    To import instances alone, use: import Unsafe.Coerce()
+   |
+24 | import Unsafe.Coerce (unsafeCoerce)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[10 of 24] Compiling Data.Attoparsec.Time ( attoparsec-iso8601/Data/Attoparsec/Time.hs, dist/dist-sandbox-3b735470/build/Data/Attoparsec/Time.o )
+[11 of 24] Compiling Data.Aeson.Parser.Time ( Data/Aeson/Parser/Time.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Parser/Time.o )
+[12 of 24] Compiling Data.Aeson.Types.FromJSON ( Data/Aeson/Types/FromJSON.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Types/FromJSON.o )
+
+Data/Aeson/Types/FromJSON.hs:479:3: warning: [-Winline-rule-shadowing]
+    Rule "FromJSONKeyCoerce: fmap id" may never fire
+      because ‘id’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘id’
+    |
+479 |   "FromJSONKeyCoerce: fmap id"     forall (x :: FromJSONKeyFunction a).
+    |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+[13 of 24] Compiling Data.Aeson.Internal ( Data/Aeson/Internal.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Internal.o )
+[14 of 24] Compiling Data.Aeson.Internal.Time ( Data/Aeson/Internal/Time.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Internal/Time.o )
+[15 of 24] Compiling Data.Aeson.Encoding.Builder ( Data/Aeson/Encoding/Builder.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Encoding/Builder.o )
+[16 of 24] Compiling Data.Aeson.Encoding.Internal ( Data/Aeson/Encoding/Internal.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Encoding/Internal.o )
+[17 of 24] Compiling Data.Aeson.Encoding ( Data/Aeson/Encoding.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Encoding.o )
+[18 of 24] Compiling Data.Aeson.Types.ToJSON ( Data/Aeson/Types/ToJSON.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Types/ToJSON.o )
+[19 of 24] Compiling Data.Aeson.Types.Class ( Data/Aeson/Types/Class.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Types/Class.o )
+[20 of 24] Compiling Data.Aeson.Types ( Data/Aeson/Types.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Types.o )
+[21 of 24] Compiling Data.Aeson.Text  ( Data/Aeson/Text.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Text.o )
+[22 of 24] Compiling Data.Aeson       ( Data/Aeson.hs, dist/dist-sandbox-3b735470/build/Data/Aeson.o )
+[23 of 24] Compiling Data.Aeson.TH    ( Data/Aeson/TH.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/TH.o )
+[24 of 24] Compiling Data.Aeson.Encode ( Data/Aeson/Encode.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Encode.o )
+[ 1 of 24] Compiling Data.Aeson.Compat ( Data/Aeson/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 24] Compiling Data.Aeson.Internal.Functions ( Data/Aeson/Internal/Functions.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Internal/Functions.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 24] Compiling Data.Aeson.Parser.UnescapePure ( pure/Data/Aeson/Parser/UnescapePure.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Parser/UnescapePure.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 24] Compiling Data.Aeson.Parser.Unescape ( Data/Aeson/Parser/Unescape.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Parser/Unescape.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 24] Compiling Data.Aeson.Types.Generic ( Data/Aeson/Types/Generic.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Types/Generic.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 24] Compiling Data.Aeson.Types.Internal ( Data/Aeson/Types/Internal.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Types/Internal.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 24] Compiling Data.Aeson.Parser.Internal ( Data/Aeson/Parser/Internal.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Parser/Internal.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 24] Compiling Data.Aeson.Parser ( Data/Aeson/Parser.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Parser.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 24] Compiling Data.Attoparsec.Time.Internal ( attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs, dist/dist-sandbox-3b735470/build/Data/Attoparsec/Time/Internal.p_o )
+
+attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs:24:1: warning: [-Wunused-imports]
+    The import of ‘Unsafe.Coerce’ is redundant
+      except perhaps to import instances from ‘Unsafe.Coerce’
+    To import instances alone, use: import Unsafe.Coerce()
+   |
+24 | import Unsafe.Coerce (unsafeCoerce)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 24] Compiling Data.Attoparsec.Time ( attoparsec-iso8601/Data/Attoparsec/Time.hs, dist/dist-sandbox-3b735470/build/Data/Attoparsec/Time.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[11 of 24] Compiling Data.Aeson.Parser.Time ( Data/Aeson/Parser/Time.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Parser/Time.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[12 of 24] Compiling Data.Aeson.Types.FromJSON ( Data/Aeson/Types/FromJSON.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Types/FromJSON.p_o )
+
+Data/Aeson/Types/FromJSON.hs:479:3: warning: [-Winline-rule-shadowing]
+    Rule "FromJSONKeyCoerce: fmap id" may never fire
+      because ‘id’ might inline first
+    Probable fix: add an INLINE[n] or NOINLINE[n] pragma for ‘id’
+    |
+479 |   "FromJSONKeyCoerce: fmap id"     forall (x :: FromJSONKeyFunction a).
+    |   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[13 of 24] Compiling Data.Aeson.Internal ( Data/Aeson/Internal.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Internal.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[14 of 24] Compiling Data.Aeson.Internal.Time ( Data/Aeson/Internal/Time.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Internal/Time.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[15 of 24] Compiling Data.Aeson.Encoding.Builder ( Data/Aeson/Encoding/Builder.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Encoding/Builder.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[16 of 24] Compiling Data.Aeson.Encoding.Internal ( Data/Aeson/Encoding/Internal.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Encoding/Internal.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[17 of 24] Compiling Data.Aeson.Encoding ( Data/Aeson/Encoding.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Encoding.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[18 of 24] Compiling Data.Aeson.Types.ToJSON ( Data/Aeson/Types/ToJSON.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Types/ToJSON.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[19 of 24] Compiling Data.Aeson.Types.Class ( Data/Aeson/Types/Class.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Types/Class.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[20 of 24] Compiling Data.Aeson.Types ( Data/Aeson/Types.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Types.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[21 of 24] Compiling Data.Aeson.Text  ( Data/Aeson/Text.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Text.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[22 of 24] Compiling Data.Aeson       ( Data/Aeson.hs, dist/dist-sandbox-3b735470/build/Data/Aeson.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[23 of 24] Compiling Data.Aeson.TH    ( Data/Aeson/TH.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/TH.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[24 of 24] Compiling Data.Aeson.Encode ( Data/Aeson/Encode.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Encode.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for aeson-1.4.1.0..
+Running Haddock on library for aeson-1.4.1.0..
+
+attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs:24:1: warning: [-Wunused-imports]
+    The import of ‘Unsafe.Coerce’ is redundant
+      except perhaps to import instances from ‘Unsafe.Coerce’
+    To import instances alone, use: import Unsafe.Coerce()
+   |
+24 | import Unsafe.Coerce (unsafeCoerce)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Haddock coverage:
+  76% ( 13 / 17) in 'Data.Aeson.Parser.Internal'
+  Missing documentation for:
+    decodeWith (Data/Aeson/Parser/Internal.hs:254)
+    decodeStrictWith (Data/Aeson/Parser/Internal.hs:263)
+    eitherDecodeWith (Data/Aeson/Parser/Internal.hs:271)
+    eitherDecodeStrictWith (Data/Aeson/Parser/Internal.hs:281)
+  75% ( 12 / 16) in 'Data.Aeson.Parser'
+  Missing documentation for:
+    decodeWith (Data/Aeson/Parser/Internal.hs:254)
+    decodeStrictWith (Data/Aeson/Parser/Internal.hs:263)
+    eitherDecodeWith (Data/Aeson/Parser/Internal.hs:271)
+    eitherDecodeStrictWith (Data/Aeson/Parser/Internal.hs:281)
+  88% (  7 /  8) in 'Data.Aeson.Internal'
+  Missing documentation for:
+    JSONPath (Data/Aeson/Types/Internal.hs:118)
+  33% (  2 /  6) in 'Data.Aeson.Internal.Time'
+  Missing documentation for:
+    fromPico (attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs:54)
+    toPico (attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs:51)
+    diffTimeOfDay64 (attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs:75)
+    toTimeOfDay64 (attoparsec-iso8601/Data/Attoparsec/Time/Internal.hs:83)
+  22% ( 17 / 77) in 'Data.Aeson.Encoding.Internal'
+  Missing documentation for:
+    Module header
+    encodingToLazyByteString (Data/Aeson/Encoding/Internal.hs:95)
+    retagEncoding (Data/Aeson/Encoding/Internal.hs:99)
+    pair (Data/Aeson/Encoding/Internal.hs:127)
+    pairStr (Data/Aeson/Encoding/Internal.hs:131)
+    pair' (Data/Aeson/Encoding/Internal.hs:135)
+    nullEncoding (Data/Aeson/Encoding/Internal.hs:147)
+    emptyArray_ (Data/Aeson/Encoding/Internal.hs:150)
+    emptyObject_ (Data/Aeson/Encoding/Internal.hs:153)
+    wrapObject (Data/Aeson/Encoding/Internal.hs:159)
+    wrapArray (Data/Aeson/Encoding/Internal.hs:156)
+    null_ (Data/Aeson/Encoding/Internal.hs:162)
+    bool (Data/Aeson/Encoding/Internal.hs:165)
+    text (Data/Aeson/Encoding/Internal.hs:226)
+    lazyText (Data/Aeson/Encoding/Internal.hs:229)
+    string (Data/Aeson/Encoding/Internal.hs:234)
+    list (Data/Aeson/Encoding/Internal.hs:175)
+    empty (Data/Aeson/Encoding/Internal.hs:204)
+    >< (Data/Aeson/Encoding/Internal.hs:211)
+    econcat (Data/Aeson/Encoding/Internal.hs:207)
+    int8 (Data/Aeson/Encoding/Internal.hs:253)
+    int16 (Data/Aeson/Encoding/Internal.hs:256)
+    int32 (Data/Aeson/Encoding/Internal.hs:259)
+    int64 (Data/Aeson/Encoding/Internal.hs:262)
+    int (Data/Aeson/Encoding/Internal.hs:265)
+    word8 (Data/Aeson/Encoding/Internal.hs:268)
+    word16 (Data/Aeson/Encoding/Internal.hs:271)
+    word32 (Data/Aeson/Encoding/Internal.hs:274)
+    word64 (Data/Aeson/Encoding/Internal.hs:277)
+    word (Data/Aeson/Encoding/Internal.hs:280)
+    integer (Data/Aeson/Encoding/Internal.hs:283)
+    float (Data/Aeson/Encoding/Internal.hs:286)
+    double (Data/Aeson/Encoding/Internal.hs:289)
+    scientific (Data/Aeson/Encoding/Internal.hs:292)
+    int8Text (Data/Aeson/Encoding/Internal.hs:305)
+    int16Text (Data/Aeson/Encoding/Internal.hs:308)
+    int32Text (Data/Aeson/Encoding/Internal.hs:311)
+    int64Text (Data/Aeson/Encoding/Internal.hs:314)
+    intText (Data/Aeson/Encoding/Internal.hs:317)
+    word8Text (Data/Aeson/Encoding/Internal.hs:320)
+    word16Text (Data/Aeson/Encoding/Internal.hs:323)
+    word32Text (Data/Aeson/Encoding/Internal.hs:326)
+    word64Text (Data/Aeson/Encoding/Internal.hs:329)
+    wordText (Data/Aeson/Encoding/Internal.hs:332)
+    integerText (Data/Aeson/Encoding/Internal.hs:335)
+    floatText (Data/Aeson/Encoding/Internal.hs:338)
+    doubleText (Data/Aeson/Encoding/Internal.hs:341)
+    scientificText (Data/Aeson/Encoding/Internal.hs:344)
+    day (Data/Aeson/Encoding/Internal.hs:351)
+    localTime (Data/Aeson/Encoding/Internal.hs:354)
+    utcTime (Data/Aeson/Encoding/Internal.hs:357)
+    timeOfDay (Data/Aeson/Encoding/Internal.hs:360)
+    zonedTime (Data/Aeson/Encoding/Internal.hs:363)
+    value (Data/Aeson/Encoding/Internal.hs:370)
+    comma (Data/Aeson/Encoding/Internal.hs:241)
+    colon (Data/Aeson/Encoding/Internal.hs:241)
+    openBracket (Data/Aeson/Encoding/Internal.hs:241)
+    closeBracket (Data/Aeson/Encoding/Internal.hs:241)
+    openCurly (Data/Aeson/Encoding/Internal.hs:241)
+    closeCurly (Data/Aeson/Encoding/Internal.hs:241)
+  24% ( 15 / 62) in 'Data.Aeson.Encoding'
+  Missing documentation for:
+    encodingToLazyByteString (Data/Aeson/Encoding/Internal.hs:95)
+    pair (Data/Aeson/Encoding/Internal.hs:127)
+    pairStr (Data/Aeson/Encoding/Internal.hs:131)
+    pair' (Data/Aeson/Encoding/Internal.hs:135)
+    nullEncoding (Data/Aeson/Encoding/Internal.hs:147)
+    emptyArray_ (Data/Aeson/Encoding/Internal.hs:150)
+    emptyObject_ (Data/Aeson/Encoding/Internal.hs:153)
+    text (Data/Aeson/Encoding/Internal.hs:226)
+    lazyText (Data/Aeson/Encoding/Internal.hs:229)
+    string (Data/Aeson/Encoding/Internal.hs:234)
+    list (Data/Aeson/Encoding/Internal.hs:175)
+    null_ (Data/Aeson/Encoding/Internal.hs:162)
+    bool (Data/Aeson/Encoding/Internal.hs:165)
+    int8 (Data/Aeson/Encoding/Internal.hs:253)
+    int16 (Data/Aeson/Encoding/Internal.hs:256)
+    int32 (Data/Aeson/Encoding/Internal.hs:259)
+    int64 (Data/Aeson/Encoding/Internal.hs:262)
+    int (Data/Aeson/Encoding/Internal.hs:265)
+    word8 (Data/Aeson/Encoding/Internal.hs:268)
+    word16 (Data/Aeson/Encoding/Internal.hs:271)
+    word32 (Data/Aeson/Encoding/Internal.hs:274)
+    word64 (Data/Aeson/Encoding/Internal.hs:277)
+    word (Data/Aeson/Encoding/Internal.hs:280)
+    integer (Data/Aeson/Encoding/Internal.hs:283)
+    float (Data/Aeson/Encoding/Internal.hs:286)
+    double (Data/Aeson/Encoding/Internal.hs:289)
+    scientific (Data/Aeson/Encoding/Internal.hs:292)
+    int8Text (Data/Aeson/Encoding/Internal.hs:305)
+    int16Text (Data/Aeson/Encoding/Internal.hs:308)
+    int32Text (Data/Aeson/Encoding/Internal.hs:311)
+    int64Text (Data/Aeson/Encoding/Internal.hs:314)
+    intText (Data/Aeson/Encoding/Internal.hs:317)
+    word8Text (Data/Aeson/Encoding/Internal.hs:320)
+    word16Text (Data/Aeson/Encoding/Internal.hs:323)
+    word32Text (Data/Aeson/Encoding/Internal.hs:326)
+    word64Text (Data/Aeson/Encoding/Internal.hs:329)
+    wordText (Data/Aeson/Encoding/Internal.hs:332)
+    integerText (Data/Aeson/Encoding/Internal.hs:335)
+    floatText (Data/Aeson/Encoding/Internal.hs:338)
+    doubleText (Data/Aeson/Encoding/Internal.hs:341)
+    scientificText (Data/Aeson/Encoding/Internal.hs:344)
+    day (Data/Aeson/Encoding/Internal.hs:351)
+    localTime (Data/Aeson/Encoding/Internal.hs:354)
+    utcTime (Data/Aeson/Encoding/Internal.hs:357)
+    timeOfDay (Data/Aeson/Encoding/Internal.hs:360)
+    zonedTime (Data/Aeson/Encoding/Internal.hs:363)
+    value (Data/Aeson/Encoding/Internal.hs:370)
+  97% (100 /103) in 'Data.Aeson.Types'
+  Missing documentation for:
+    ToJSONKeyFunction (Data/Aeson/Types/ToJSON.hs:473)
+    GToJSON (Data/Aeson/Types/Class.hs:103)
+    GToEncoding (Data/Aeson/Types/Class.hs:104)
+ 100% (  3 /  3) in 'Data.Aeson.Text'
+Cannot find documentation for: $optionsFields
+  97% (105 /108) in 'Data.Aeson'
+  Missing documentation for:
+    ToJSONKeyFunction (Data/Aeson/Types/ToJSON.hs:473)
+    GToJSON (Data/Aeson/Types/Class.hs:103)
+    GToEncoding (Data/Aeson/Types/Class.hs:104)
+ 100% ( 25 / 25) in 'Data.Aeson.TH'
+  33% (  1 /  3) in 'Data.Aeson.Encode'
+  Missing documentation for:
+    encode (Data/Aeson/Encode.hs:25)
+    encodeToTextBuilder (Data/Aeson/Encode.hs:29)
+Warning: Data.Aeson.Types: could not find link destinations for:
+    GToJSON CoerceText AllNullary ParseSum FromProduct ProductSize ConsFromJSON withBoundedScientific
+Warning: Data.Aeson: could not find link destinations for:
+    GToJSON CoerceText AllNullary ParseSum FromProduct ProductSize ConsFromJSON withBoundedScientific
+Warning: Data.Aeson.TH: could not find link destinations for:
+    Encoding sumToValue StarKindStatus opaqueSumToValue recordSumToValue
+Documentation created: dist/dist-sandbox-3b735470/doc/html/aeson/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/aeson-1.4.1.0-JaiCPnIg80cGqC9EfqkML4
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71382/aeson-1.4.1.0'

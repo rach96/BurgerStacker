@@ -1,0 +1,38 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71383/contravariant-1.5'
+Configuring contravariant-1.5...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for contravariant-1.5..
+Building library for contravariant-1.5..
+[1 of 4] Compiling Data.Functor.Contravariant ( old-src/Data/Functor/Contravariant.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Contravariant.o )
+[2 of 4] Compiling Data.Functor.Contravariant.Divisible ( src/Data/Functor/Contravariant/Divisible.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Contravariant/Divisible.o )
+[3 of 4] Compiling Data.Functor.Contravariant.Compose ( src/Data/Functor/Contravariant/Compose.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Contravariant/Compose.o )
+[4 of 4] Compiling Data.Functor.Contravariant.Generic ( src/Data/Functor/Contravariant/Generic.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Contravariant/Generic.o )
+[1 of 4] Compiling Data.Functor.Contravariant ( old-src/Data/Functor/Contravariant.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Contravariant.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 4] Compiling Data.Functor.Contravariant.Divisible ( src/Data/Functor/Contravariant/Divisible.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Contravariant/Divisible.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[3 of 4] Compiling Data.Functor.Contravariant.Compose ( src/Data/Functor/Contravariant/Compose.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Contravariant/Compose.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[4 of 4] Compiling Data.Functor.Contravariant.Generic ( src/Data/Functor/Contravariant/Generic.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Contravariant/Generic.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for contravariant-1.5..
+Running Haddock on library for contravariant-1.5..
+Haddock coverage:
+  89% ( 17 / 19) in 'Data.Functor.Contravariant'
+  Missing documentation for:
+    Predicate (old-src/Data/Functor/Contravariant.hs:303)
+    comparisonEquivalence (old-src/Data/Functor/Contravariant.hs:400)
+ 100% ( 17 / 17) in 'Data.Functor.Contravariant.Divisible'
+ 100% (  4 /  4) in 'Data.Functor.Contravariant.Compose'
+ 100% (  3 /  3) in 'Data.Functor.Contravariant.Generic'
+Warning: Data.Functor.Contravariant.Generic: could not find link destinations for:
+    GDeciding GDeciding1
+Documentation created:
+dist/dist-sandbox-3b735470/doc/html/contravariant/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/contravariant-1.5-3X5fUpXwmB92T5JM8Nn6YA
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71383/contravariant-1.5'

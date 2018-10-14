@@ -1,0 +1,115 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-80978/gloss-juicy-0.2.3'
+Configuring gloss-juicy-0.2.3...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing executable 'gloss-juicy-viewer' for gloss-juicy-0.2.3..
+Building executable 'gloss-juicy-viewer' for gloss-juicy-0.2.3..
+
+<no location info>: warning: [-Wmissing-home-modules]
+    These modules are needed for compilation but not listed in your .cabal file's other-modules: Graphics.Gloss.Juicy
+[1 of 2] Compiling Graphics.Gloss.Juicy ( Graphics/Gloss/Juicy.hs, dist/dist-sandbox-3b735470/build/gloss-juicy-viewer/gloss-juicy-viewer-tmp/Graphics/Gloss/Juicy.o )
+
+Graphics/Gloss/Juicy.hs:30:1: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘fromDynamicImage’:
+        Patterns not matched:
+            (ImageY16 _)
+            (ImageY32 _)
+            (ImageYA16 _)
+            (ImageRGB16 _)
+            ...
+   |
+30 | fromDynamicImage (ImageY8 img)     = Just $ fromImageY8 img
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Graphics/Gloss/Juicy.hs:40:70: warning: [-Wname-shadowing]
+    This binding for ‘id’ shadows the existing binding
+      imported from ‘Prelude’ at Graphics/Gloss/Juicy.hs:1:8-27
+      (and originally defined in ‘GHC.Base’)
+   |
+40 | fromImageRGBA8 (Image { imageWidth = w, imageHeight = h, imageData = id }) =
+   |                                                                      ^^
+[2 of 2] Compiling Main             ( gloss-juicy.hs, dist/dist-sandbox-3b735470/build/gloss-juicy-viewer/gloss-juicy-viewer-tmp/Main.o )
+
+gloss-juicy.hs:9:1: warning: [-Wtabs]
+    Tab character found here, and in five further locations.
+    Please use spaces instead.
+  |
+9 |         args <- getArgs
+  | ^^^^^^^^
+
+<no location info>: warning: [-Wmissing-home-modules]
+    These modules are needed for compilation but not listed in your .cabal file's other-modules: Graphics.Gloss.Juicy
+Linking dist/dist-sandbox-3b735470/build/gloss-juicy-viewer/gloss-juicy-viewer ...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for gloss-juicy-0.2.3..
+Building library for gloss-juicy-0.2.3..
+[1 of 1] Compiling Graphics.Gloss.Juicy ( Graphics/Gloss/Juicy.hs, dist/dist-sandbox-3b735470/build/Graphics/Gloss/Juicy.o )
+
+Graphics/Gloss/Juicy.hs:30:1: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘fromDynamicImage’:
+        Patterns not matched:
+            (ImageY16 _)
+            (ImageY32 _)
+            (ImageYA16 _)
+            (ImageRGB16 _)
+            ...
+   |
+30 | fromDynamicImage (ImageY8 img)     = Just $ fromImageY8 img
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Graphics/Gloss/Juicy.hs:40:70: warning: [-Wname-shadowing]
+    This binding for ‘id’ shadows the existing binding
+      imported from ‘Prelude’ at Graphics/Gloss/Juicy.hs:1:8-27
+      (and originally defined in ‘GHC.Base’)
+   |
+40 | fromImageRGBA8 (Image { imageWidth = w, imageHeight = h, imageData = id }) =
+   |                                                                      ^^
+[1 of 1] Compiling Graphics.Gloss.Juicy ( Graphics/Gloss/Juicy.hs, dist/dist-sandbox-3b735470/build/Graphics/Gloss/Juicy.p_o )
+
+Graphics/Gloss/Juicy.hs:30:1: warning: [-Wincomplete-patterns]
+    Pattern match(es) are non-exhaustive
+    In an equation for ‘fromDynamicImage’:
+        Patterns not matched:
+            (ImageY16 _)
+            (ImageY32 _)
+            (ImageYA16 _)
+            (ImageRGB16 _)
+            ...
+   |
+30 | fromDynamicImage (ImageY8 img)     = Just $ fromImageY8 img
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Graphics/Gloss/Juicy.hs:40:70: warning: [-Wname-shadowing]
+    This binding for ‘id’ shadows the existing binding
+      imported from ‘Prelude’ at Graphics/Gloss/Juicy.hs:1:8-27
+      (and originally defined in ‘GHC.Base’)
+   |
+40 | fromImageRGBA8 (Image { imageWidth = w, imageHeight = h, imageData = id }) =
+   |                                                                      ^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing executable 'gloss-juicy-viewer' for gloss-juicy-0.2.3..
+Preprocessing library for gloss-juicy-0.2.3..
+Running Haddock on library for gloss-juicy-0.2.3..
+
+Graphics/Gloss/Juicy.hs:40:70: warning: [-Wname-shadowing]
+    This binding for ‘id’ shadows the existing binding
+      imported from ‘Prelude’ at Graphics/Gloss/Juicy.hs:1:8-27
+      (and originally defined in ‘GHC.Base’)
+   |
+40 | fromImageRGBA8 (Image { imageWidth = w, imageHeight = h, imageData = id }) =
+   |                                                                      ^^
+Haddock coverage:
+  79% ( 11 / 14) in 'Graphics.Gloss.Juicy'
+  Missing documentation for:
+    Module header
+    loadJuicyJPG (Graphics/Gloss/Juicy.hs:76)
+    loadJuicyPNG (Graphics/Gloss/Juicy.hs:80)
+Documentation created:
+dist/dist-sandbox-3b735470/doc/html/gloss-juicy/index.html
+Installing executable gloss-juicy-viewer in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/bin
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/gloss-juicy-0.2.3-HUe5oTTALKjCikLc9xcp4J
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-80978/gloss-juicy-0.2.3'

@@ -1,0 +1,17 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-57497/StateVar-1.1.1.1'
+Configuring StateVar-1.1.1.1...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for StateVar-1.1.1.1..
+Building library for StateVar-1.1.1.1..
+[1 of 1] Compiling Data.StateVar    ( src/Data/StateVar.hs, dist/dist-sandbox-3b735470/build/Data/StateVar.o )
+[1 of 1] Compiling Data.StateVar    ( src/Data/StateVar.hs, dist/dist-sandbox-3b735470/build/Data/StateVar.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for StateVar-1.1.1.1..
+Running Haddock on library for StateVar-1.1.1.1..
+Haddock coverage:
+ 100% ( 15 / 15) in 'Data.StateVar'
+Documentation created: dist/dist-sandbox-3b735470/doc/html/StateVar/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/StateVar-1.1.1.1-56wB4cj2EYuLFMXtJnfoI8
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-57497/StateVar-1.1.1.1'

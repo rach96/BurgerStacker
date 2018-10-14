@@ -1,0 +1,65 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-57497/stm-2.5.0.0'
+Configuring stm-2.5.0.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for stm-2.5.0.0..
+Building library for stm-2.5.0.0..
+[ 1 of 10] Compiling Control.Concurrent.STM.TBQueue ( Control/Concurrent/STM/TBQueue.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM/TBQueue.o )
+[ 2 of 10] Compiling Control.Concurrent.STM.TChan ( Control/Concurrent/STM/TChan.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM/TChan.o )
+[ 3 of 10] Compiling Control.Concurrent.STM.TMVar ( Control/Concurrent/STM/TMVar.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM/TMVar.o )
+[ 4 of 10] Compiling Control.Concurrent.STM.TQueue ( Control/Concurrent/STM/TQueue.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM/TQueue.o )
+[ 5 of 10] Compiling Control.Concurrent.STM.TVar ( Control/Concurrent/STM/TVar.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM/TVar.o )
+[ 6 of 10] Compiling Control.Concurrent.STM.TArray ( Control/Concurrent/STM/TArray.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM/TArray.o )
+[ 7 of 10] Compiling Control.Monad.STM ( Control/Monad/STM.hs, dist/dist-sandbox-3b735470/build/Control/Monad/STM.o )
+[ 8 of 10] Compiling Control.Concurrent.STM ( Control/Concurrent/STM.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM.o )
+[ 9 of 10] Compiling Control.Concurrent.STM.TSem ( Control/Concurrent/STM/TSem.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM/TSem.o )
+[10 of 10] Compiling Control.Sequential.STM ( Control/Sequential/STM.hs, dist/dist-sandbox-3b735470/build/Control/Sequential/STM.o )
+[ 1 of 10] Compiling Control.Concurrent.STM.TBQueue ( Control/Concurrent/STM/TBQueue.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM/TBQueue.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 10] Compiling Control.Concurrent.STM.TChan ( Control/Concurrent/STM/TChan.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM/TChan.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 10] Compiling Control.Concurrent.STM.TMVar ( Control/Concurrent/STM/TMVar.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM/TMVar.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 10] Compiling Control.Concurrent.STM.TQueue ( Control/Concurrent/STM/TQueue.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM/TQueue.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 10] Compiling Control.Concurrent.STM.TVar ( Control/Concurrent/STM/TVar.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM/TVar.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 10] Compiling Control.Concurrent.STM.TArray ( Control/Concurrent/STM/TArray.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM/TArray.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 10] Compiling Control.Monad.STM ( Control/Monad/STM.hs, dist/dist-sandbox-3b735470/build/Control/Monad/STM.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 10] Compiling Control.Concurrent.STM ( Control/Concurrent/STM.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 10] Compiling Control.Concurrent.STM.TSem ( Control/Concurrent/STM/TSem.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/STM/TSem.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 10] Compiling Control.Sequential.STM ( Control/Sequential/STM.hs, dist/dist-sandbox-3b735470/build/Control/Sequential/STM.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for stm-2.5.0.0..
+Running Haddock on library for stm-2.5.0.0..
+Haddock coverage:
+ 100% ( 15 / 15) in 'Control.Concurrent.STM.TBQueue'
+ 100% ( 18 / 18) in 'Control.Concurrent.STM.TChan'
+ 100% ( 16 / 16) in 'Control.Concurrent.STM.TMVar'
+ 100% ( 13 / 13) in 'Control.Concurrent.STM.TQueue'
+ 100% ( 14 / 14) in 'Control.Concurrent.STM.TVar'
+ 100% (  2 /  2) in 'Control.Concurrent.STM.TArray'
+ 100% (  8 /  8) in 'Control.Monad.STM'
+ 100% (  8 /  8) in 'Control.Concurrent.STM'
+ 100% (  6 /  6) in 'Control.Concurrent.STM.TSem'
+Warning: Control.Concurrent.STM.TArray: could not find link destinations for:
+    getNumElements unsafeNewArray_ unsafeRead unsafeWrite
+Warning: Control.Monad.STM: could not find link destinations for:
+    getNumElements unsafeNewArray_ unsafeRead unsafeWrite
+Documentation created: dist/dist-sandbox-3b735470/doc/html/stm/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/stm-2.5.0.0-5ZER8mSr9Cp26UnDGtrWUN
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-57497/stm-2.5.0.0'

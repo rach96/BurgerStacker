@@ -1,0 +1,104 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71382/bifunctors-5.5.3'
+Configuring bifunctors-5.5.3...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for bifunctors-5.5.3..
+Building library for bifunctors-5.5.3..
+[ 1 of 15] Compiling Data.Biapplicative ( src/Data/Biapplicative.hs, dist/dist-sandbox-3b735470/build/Data/Biapplicative.o )
+[ 2 of 15] Compiling Data.Bifunctor.Biff ( src/Data/Bifunctor/Biff.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Biff.o )
+[ 3 of 15] Compiling Data.Bifunctor.Clown ( src/Data/Bifunctor/Clown.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Clown.o )
+[ 4 of 15] Compiling Data.Bifunctor.Fix ( src/Data/Bifunctor/Fix.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Fix.o )
+[ 5 of 15] Compiling Data.Bifunctor.Functor ( src/Data/Bifunctor/Functor.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Functor.o )
+[ 6 of 15] Compiling Data.Bifunctor.Flip ( src/Data/Bifunctor/Flip.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Flip.o )
+[ 7 of 15] Compiling Data.Bifunctor.Join ( src/Data/Bifunctor/Join.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Join.o )
+[ 8 of 15] Compiling Data.Bifunctor.Joker ( src/Data/Bifunctor/Joker.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Joker.o )
+[ 9 of 15] Compiling Data.Bifunctor.Product ( src/Data/Bifunctor/Product.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Product.o )
+[10 of 15] Compiling Data.Bifunctor.Sum ( src/Data/Bifunctor/Sum.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Sum.o )
+[11 of 15] Compiling Data.Bifunctor.TH.Internal ( src/Data/Bifunctor/TH/Internal.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/TH/Internal.o )
+[12 of 15] Compiling Data.Bifunctor.TH ( src/Data/Bifunctor/TH.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/TH.o )
+[13 of 15] Compiling Data.Bifunctor.Tannen ( src/Data/Bifunctor/Tannen.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Tannen.o )
+[14 of 15] Compiling Data.Bifunctor.Wrapped ( src/Data/Bifunctor/Wrapped.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Wrapped.o )
+[15 of 15] Compiling Paths_bifunctors ( dist/dist-sandbox-3b735470/build/autogen/Paths_bifunctors.hs, dist/dist-sandbox-3b735470/build/Paths_bifunctors.o )
+[ 1 of 15] Compiling Data.Biapplicative ( src/Data/Biapplicative.hs, dist/dist-sandbox-3b735470/build/Data/Biapplicative.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 15] Compiling Data.Bifunctor.Biff ( src/Data/Bifunctor/Biff.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Biff.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 15] Compiling Data.Bifunctor.Clown ( src/Data/Bifunctor/Clown.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Clown.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 15] Compiling Data.Bifunctor.Fix ( src/Data/Bifunctor/Fix.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Fix.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 15] Compiling Data.Bifunctor.Functor ( src/Data/Bifunctor/Functor.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Functor.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 15] Compiling Data.Bifunctor.Flip ( src/Data/Bifunctor/Flip.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Flip.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 15] Compiling Data.Bifunctor.Join ( src/Data/Bifunctor/Join.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Join.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 15] Compiling Data.Bifunctor.Joker ( src/Data/Bifunctor/Joker.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Joker.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 15] Compiling Data.Bifunctor.Product ( src/Data/Bifunctor/Product.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Product.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 15] Compiling Data.Bifunctor.Sum ( src/Data/Bifunctor/Sum.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Sum.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[11 of 15] Compiling Data.Bifunctor.TH.Internal ( src/Data/Bifunctor/TH/Internal.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/TH/Internal.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[12 of 15] Compiling Data.Bifunctor.TH ( src/Data/Bifunctor/TH.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/TH.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[13 of 15] Compiling Data.Bifunctor.Tannen ( src/Data/Bifunctor/Tannen.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Tannen.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[14 of 15] Compiling Data.Bifunctor.Wrapped ( src/Data/Bifunctor/Wrapped.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Wrapped.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[15 of 15] Compiling Paths_bifunctors ( dist/dist-sandbox-3b735470/build/autogen/Paths_bifunctors.hs, dist/dist-sandbox-3b735470/build/Paths_bifunctors.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for bifunctors-5.5.3..
+Running Haddock on library for bifunctors-5.5.3..
+Haddock coverage:
+  70% (  7 / 10) in 'Data.Biapplicative'
+  Missing documentation for:
+    Biapplicative (src/Data/Biapplicative.hs:58)
+    <<$>> (src/Data/Biapplicative.hs:54)
+    <<**>> (src/Data/Biapplicative.hs:87)
+ 100% (  2 /  2) in 'Data.Bifunctor.Biff'
+ 100% (  2 /  2) in 'Data.Bifunctor.Clown'
+ 100% (  2 /  2) in 'Data.Bifunctor.Fix'
+  14% (  1 /  7) in 'Data.Bifunctor.Functor'
+  Missing documentation for:
+    Module header
+    BifunctorFunctor (src/Data/Bifunctor/Functor.hs:28)
+    BifunctorMonad (src/Data/Bifunctor/Functor.hs:31)
+    biliftM (src/Data/Bifunctor/Functor.hs:41)
+    BifunctorComonad (src/Data/Bifunctor/Functor.hs:45)
+    biliftW (src/Data/Bifunctor/Functor.hs:55)
+ 100% (  2 /  2) in 'Data.Bifunctor.Flip'
+ 100% (  2 /  2) in 'Data.Bifunctor.Join'
+ 100% (  2 /  2) in 'Data.Bifunctor.Joker'
+ 100% (  2 /  2) in 'Data.Bifunctor.Product'
+   0% (  0 /  2) in 'Data.Bifunctor.Sum'
+  Missing documentation for:
+    Module header
+    Sum (src/Data/Bifunctor/Sum.hs:36)
+  97% ( 32 / 33) in 'Data.Bifunctor.TH'
+  Missing documentation for:
+    makeBifold (src/Data/Bifunctor/TH.hs:224)
+ 100% (  2 /  2) in 'Data.Bifunctor.Tannen'
+ 100% (  2 /  2) in 'Data.Bifunctor.Wrapped'
+Warning: Data.Bifunctor.TH: could not find link destinations for:
+    Bifunctor Bifoldable Bitraversable
+Documentation created:
+dist/dist-sandbox-3b735470/doc/html/bifunctors/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/bifunctors-5.5.3-3n97BgTUoj8BPvjrxmKIlG
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71382/bifunctors-5.5.3'

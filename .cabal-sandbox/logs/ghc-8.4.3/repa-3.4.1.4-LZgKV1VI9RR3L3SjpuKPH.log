@@ -1,0 +1,291 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-77183/repa-3.4.1.4'
+Configuring repa-3.4.1.4...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for repa-3.4.1.4..
+Building library for repa-3.4.1.4..
+[ 1 of 39] Compiling Data.Array.Repa.Eval.Elt ( Data/Array/Repa/Eval/Elt.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Elt.o )
+[ 2 of 39] Compiling Data.Array.Repa.Eval.Gang ( Data/Array/Repa/Eval/Gang.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Gang.o )
+[ 3 of 39] Compiling Data.Array.Repa.Eval.Interleaved ( Data/Array/Repa/Eval/Interleaved.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Interleaved.o )
+[ 4 of 39] Compiling Data.Array.Repa.Eval.Reduction ( Data/Array/Repa/Eval/Reduction.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Reduction.o )
+[ 5 of 39] Compiling Data.Array.Repa.Shape ( Data/Array/Repa/Shape.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Shape.o )
+[ 6 of 39] Compiling Data.Array.Repa.Index ( Data/Array/Repa/Index.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Index.o )
+[ 7 of 39] Compiling Data.Array.Repa.Eval.Chunked ( Data/Array/Repa/Eval/Chunked.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Chunked.o )
+[ 8 of 39] Compiling Data.Array.Repa.Eval.Selection ( Data/Array/Repa/Eval/Selection.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Selection.o )
+[ 9 of 39] Compiling Data.Array.Repa.Eval.Cursored ( Data/Array/Repa/Eval/Cursored.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Cursored.o )
+[10 of 39] Compiling Data.Array.Repa.Base ( Data/Array/Repa/Base.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Base.o )
+[11 of 39] Compiling Data.Array.Repa.Eval.Target ( Data/Array/Repa/Eval/Target.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Target.o )
+[12 of 39] Compiling Data.Array.Repa.Eval.Load ( Data/Array/Repa/Eval/Load.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Load.o )
+[13 of 39] Compiling Data.Array.Repa.Repr.HintSmall ( Data/Array/Repa/Repr/HintSmall.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/HintSmall.o )
+[14 of 39] Compiling Data.Array.Repa.Repr.Delayed ( Data/Array/Repa/Repr/Delayed.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/Delayed.o )
+[15 of 39] Compiling Data.Array.Repa.Repr.HintInterleave ( Data/Array/Repa/Repr/HintInterleave.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/HintInterleave.o )
+[16 of 39] Compiling Data.Array.Repa.Repr.ForeignPtr ( Data/Array/Repa/Repr/ForeignPtr.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/ForeignPtr.o )
+[17 of 39] Compiling Data.Array.Repa.Repr.ByteString ( Data/Array/Repa/Repr/ByteString.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/ByteString.o )
+[18 of 39] Compiling Data.Array.Repa.Operators.Traversal ( Data/Array/Repa/Operators/Traversal.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Operators/Traversal.o )
+[19 of 39] Compiling Data.Array.Repa.Operators.Interleave ( Data/Array/Repa/Operators/Interleave.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Operators/Interleave.o )
+[20 of 39] Compiling Data.Array.Repa.Eval ( Data/Array/Repa/Eval.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval.o )
+[21 of 39] Compiling Data.Array.Repa.Repr.Vector ( Data/Array/Repa/Repr/Vector.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/Vector.o )
+[22 of 39] Compiling Data.Array.Repa.Repr.Undefined ( Data/Array/Repa/Repr/Undefined.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/Undefined.o )
+[23 of 39] Compiling Data.Array.Repa.Repr.Cursored ( Data/Array/Repa/Repr/Cursored.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/Cursored.o )
+[24 of 39] Compiling Data.Array.Repa.Repr.Unboxed ( Data/Array/Repa/Repr/Unboxed.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/Unboxed.o )
+[25 of 39] Compiling Data.Array.Repa.Operators.Selection ( Data/Array/Repa/Operators/Selection.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Operators/Selection.o )
+[26 of 39] Compiling Data.Array.Repa.Repr.Partitioned ( Data/Array/Repa/Repr/Partitioned.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/Partitioned.o )
+[27 of 39] Compiling Data.Array.Repa.Operators.Mapping ( Data/Array/Repa/Operators/Mapping.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Operators/Mapping.o )
+[28 of 39] Compiling Data.Array.Repa.Operators.Reduction ( Data/Array/Repa/Operators/Reduction.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Operators/Reduction.o )
+[29 of 39] Compiling Data.Array.Repa.Arbitrary ( Data/Array/Repa/Arbitrary.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Arbitrary.o )
+[30 of 39] Compiling Data.Array.Repa.Slice ( Data/Array/Repa/Slice.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Slice.o )
+[31 of 39] Compiling Data.Array.Repa.Operators.IndexSpace ( Data/Array/Repa/Operators/IndexSpace.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Operators/IndexSpace.o )
+[32 of 39] Compiling Data.Array.Repa  ( Data/Array/Repa.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa.o )
+[33 of 39] Compiling Data.Array.Repa.Specialised.Dim2 ( Data/Array/Repa/Specialised/Dim2.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Specialised/Dim2.o )
+[34 of 39] Compiling Data.Array.Repa.Stencil.Base ( Data/Array/Repa/Stencil/Base.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Stencil/Base.o )
+[35 of 39] Compiling Data.Array.Repa.Stencil.Partition ( Data/Array/Repa/Stencil/Partition.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Stencil/Partition.o )
+[36 of 39] Compiling Data.Array.Repa.Stencil.Template ( Data/Array/Repa/Stencil/Template.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Stencil/Template.o )
+[37 of 39] Compiling Data.Array.Repa.Stencil.Dim2 ( Data/Array/Repa/Stencil/Dim2.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Stencil/Dim2.o )
+[38 of 39] Compiling Data.Array.Repa.Stencil ( Data/Array/Repa/Stencil.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Stencil.o )
+[39 of 39] Compiling Data.Array.Repa.Unsafe ( Data/Array/Repa/Unsafe.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Unsafe.o )
+[ 1 of 39] Compiling Data.Array.Repa.Eval.Elt ( Data/Array/Repa/Eval/Elt.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Elt.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 39] Compiling Data.Array.Repa.Eval.Gang ( Data/Array/Repa/Eval/Gang.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Gang.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 39] Compiling Data.Array.Repa.Eval.Interleaved ( Data/Array/Repa/Eval/Interleaved.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Interleaved.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 39] Compiling Data.Array.Repa.Eval.Reduction ( Data/Array/Repa/Eval/Reduction.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Reduction.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 39] Compiling Data.Array.Repa.Shape ( Data/Array/Repa/Shape.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Shape.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 39] Compiling Data.Array.Repa.Index ( Data/Array/Repa/Index.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Index.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 39] Compiling Data.Array.Repa.Eval.Chunked ( Data/Array/Repa/Eval/Chunked.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Chunked.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 39] Compiling Data.Array.Repa.Eval.Selection ( Data/Array/Repa/Eval/Selection.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Selection.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 39] Compiling Data.Array.Repa.Eval.Cursored ( Data/Array/Repa/Eval/Cursored.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Cursored.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 39] Compiling Data.Array.Repa.Base ( Data/Array/Repa/Base.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Base.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[11 of 39] Compiling Data.Array.Repa.Eval.Target ( Data/Array/Repa/Eval/Target.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Target.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[12 of 39] Compiling Data.Array.Repa.Eval.Load ( Data/Array/Repa/Eval/Load.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval/Load.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[13 of 39] Compiling Data.Array.Repa.Repr.HintSmall ( Data/Array/Repa/Repr/HintSmall.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/HintSmall.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[14 of 39] Compiling Data.Array.Repa.Repr.Delayed ( Data/Array/Repa/Repr/Delayed.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/Delayed.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[15 of 39] Compiling Data.Array.Repa.Repr.HintInterleave ( Data/Array/Repa/Repr/HintInterleave.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/HintInterleave.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[16 of 39] Compiling Data.Array.Repa.Repr.ForeignPtr ( Data/Array/Repa/Repr/ForeignPtr.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/ForeignPtr.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[17 of 39] Compiling Data.Array.Repa.Repr.ByteString ( Data/Array/Repa/Repr/ByteString.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/ByteString.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[18 of 39] Compiling Data.Array.Repa.Operators.Traversal ( Data/Array/Repa/Operators/Traversal.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Operators/Traversal.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[19 of 39] Compiling Data.Array.Repa.Operators.Interleave ( Data/Array/Repa/Operators/Interleave.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Operators/Interleave.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[20 of 39] Compiling Data.Array.Repa.Eval ( Data/Array/Repa/Eval.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Eval.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[21 of 39] Compiling Data.Array.Repa.Repr.Vector ( Data/Array/Repa/Repr/Vector.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/Vector.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[22 of 39] Compiling Data.Array.Repa.Repr.Undefined ( Data/Array/Repa/Repr/Undefined.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/Undefined.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[23 of 39] Compiling Data.Array.Repa.Repr.Cursored ( Data/Array/Repa/Repr/Cursored.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/Cursored.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[24 of 39] Compiling Data.Array.Repa.Repr.Unboxed ( Data/Array/Repa/Repr/Unboxed.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/Unboxed.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[25 of 39] Compiling Data.Array.Repa.Operators.Selection ( Data/Array/Repa/Operators/Selection.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Operators/Selection.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[26 of 39] Compiling Data.Array.Repa.Repr.Partitioned ( Data/Array/Repa/Repr/Partitioned.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Repr/Partitioned.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[27 of 39] Compiling Data.Array.Repa.Operators.Mapping ( Data/Array/Repa/Operators/Mapping.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Operators/Mapping.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[28 of 39] Compiling Data.Array.Repa.Operators.Reduction ( Data/Array/Repa/Operators/Reduction.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Operators/Reduction.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[29 of 39] Compiling Data.Array.Repa.Arbitrary ( Data/Array/Repa/Arbitrary.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Arbitrary.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[30 of 39] Compiling Data.Array.Repa.Slice ( Data/Array/Repa/Slice.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Slice.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[31 of 39] Compiling Data.Array.Repa.Operators.IndexSpace ( Data/Array/Repa/Operators/IndexSpace.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Operators/IndexSpace.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[32 of 39] Compiling Data.Array.Repa  ( Data/Array/Repa.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[33 of 39] Compiling Data.Array.Repa.Specialised.Dim2 ( Data/Array/Repa/Specialised/Dim2.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Specialised/Dim2.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[34 of 39] Compiling Data.Array.Repa.Stencil.Base ( Data/Array/Repa/Stencil/Base.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Stencil/Base.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[35 of 39] Compiling Data.Array.Repa.Stencil.Partition ( Data/Array/Repa/Stencil/Partition.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Stencil/Partition.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[36 of 39] Compiling Data.Array.Repa.Stencil.Template ( Data/Array/Repa/Stencil/Template.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Stencil/Template.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[37 of 39] Compiling Data.Array.Repa.Stencil.Dim2 ( Data/Array/Repa/Stencil/Dim2.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Stencil/Dim2.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[38 of 39] Compiling Data.Array.Repa.Stencil ( Data/Array/Repa/Stencil.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Stencil.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[39 of 39] Compiling Data.Array.Repa.Unsafe ( Data/Array/Repa/Unsafe.hs, dist/dist-sandbox-3b735470/build/Data/Array/Repa/Unsafe.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for repa-3.4.1.4..
+Running Haddock on library for repa-3.4.1.4..
+Haddock coverage:
+ 100% (  7 /  7) in 'Data.Array.Repa.Eval.Gang'
+ 100% (  4 /  4) in 'Data.Array.Repa.Shape'
+  38% (  6 / 16) in 'Data.Array.Repa.Index'
+  Missing documentation for:
+    DIM0 (Data/Array/Repa/Index.hs:30)
+    DIM1 (Data/Array/Repa/Index.hs:31)
+    DIM2 (Data/Array/Repa/Index.hs:32)
+    DIM3 (Data/Array/Repa/Index.hs:33)
+    DIM4 (Data/Array/Repa/Index.hs:34)
+    DIM5 (Data/Array/Repa/Index.hs:35)
+    ix2 (Data/Array/Repa/Index.hs:47)
+    ix3 (Data/Array/Repa/Index.hs:51)
+    ix4 (Data/Array/Repa/Index.hs:55)
+    ix5 (Data/Array/Repa/Index.hs:59)
+  50% (  2 /  4) in 'Data.Array.Repa.Repr.HintSmall'
+  Missing documentation for:
+    Module header
+    Array (Data/Array/Repa/Base.hs:15)
+  67% (  4 /  6) in 'Data.Array.Repa.Repr.Delayed'
+  Missing documentation for:
+    Module header
+    Array (Data/Array/Repa/Base.hs:15)
+  50% (  2 /  4) in 'Data.Array.Repa.Repr.HintInterleave'
+  Missing documentation for:
+    Module header
+    Array (Data/Array/Repa/Base.hs:15)
+  71% (  5 /  7) in 'Data.Array.Repa.Repr.ForeignPtr'
+  Missing documentation for:
+    Module header
+    Array (Data/Array/Repa/Base.hs:15)
+  60% (  3 /  5) in 'Data.Array.Repa.Repr.ByteString'
+  Missing documentation for:
+    Module header
+    Array (Data/Array/Repa/Base.hs:15)
+  89% (  8 /  9) in 'Data.Array.Repa.Operators.Traversal'
+  Missing documentation for:
+    Module header
+  75% (  3 /  4) in 'Data.Array.Repa.Operators.Interleave'
+  Missing documentation for:
+    Module header
+ 100% ( 31 / 31) in 'Data.Array.Repa.Eval'
+  75% (  6 /  8) in 'Data.Array.Repa.Repr.Vector'
+  Missing documentation for:
+    Module header
+    Array (Data/Array/Repa/Base.hs:15)
+  33% (  1 /  3) in 'Data.Array.Repa.Repr.Undefined'
+  Missing documentation for:
+    Module header
+    Array (Data/Array/Repa/Base.hs:15)
+  50% (  2 /  4) in 'Data.Array.Repa.Repr.Cursored'
+  Missing documentation for:
+    Module header
+    Array (Data/Array/Repa/Base.hs:15)
+  84% ( 16 / 19) in 'Data.Array.Repa.Repr.Unboxed'
+  Missing documentation for:
+    Module header
+    Unbox
+    Array (Data/Array/Repa/Base.hs:15)
+  50% (  1 /  2) in 'Data.Array.Repa.Operators.Selection'
+  Missing documentation for:
+    Module header
+  40% (  2 /  5) in 'Data.Array.Repa.Repr.Partitioned'
+  Missing documentation for:
+    Module header
+    Array (Data/Array/Repa/Base.hs:15)
+    Range (Data/Array/Repa/Repr/Partitioned.hs:26)
+  50% (  5 / 10) in 'Data.Array.Repa.Operators.Mapping'
+  Missing documentation for:
+    Module header
+    +^ (Data/Array/Repa/Operators/Mapping.hs:59)
+    -^ (Data/Array/Repa/Operators/Mapping.hs:62)
+    *^ (Data/Array/Repa/Operators/Mapping.hs:65)
+    /^ (Data/Array/Repa/Operators/Mapping.hs:68)
+  91% ( 10 / 11) in 'Data.Array.Repa.Operators.Reduction'
+  Missing documentation for:
+    Module header
+  93% ( 14 / 15) in 'Data.Array.Repa.Arbitrary'
+  Missing documentation for:
+    Module header
+ 100% (  6 /  6) in 'Data.Array.Repa.Slice'
+  93% ( 13 / 14) in 'Data.Array.Repa.Operators.IndexSpace'
+  Missing documentation for:
+    Module header
+Warning: Data.Array.Repa: Array is exported separately but will be documented under Source. Consider exporting it together with its parent(s) for code clarity.
+  94% ( 65 / 69) in 'Data.Array.Repa'
+  Missing documentation for:
+    +^ (Data/Array/Repa/Operators/Mapping.hs:59)
+    -^ (Data/Array/Repa/Operators/Mapping.hs:62)
+    *^ (Data/Array/Repa/Operators/Mapping.hs:65)
+    /^ (Data/Array/Repa/Operators/Mapping.hs:68)
+ 100% (  5 /  5) in 'Data.Array.Repa.Specialised.Dim2'
+  75% (  6 /  8) in 'Data.Array.Repa.Stencil.Dim2'
+  Missing documentation for:
+    Module header
+    PC5 (Data/Array/Repa/Stencil/Dim2.hs:38)
+ 100% (  5 /  5) in 'Data.Array.Repa.Stencil'
+ 100% (  9 /  9) in 'Data.Array.Repa.Unsafe'
+Warning: Data.Array.Repa.Eval.Gang: could not find link destinations for:
+    Req
+Warning: Data.Array.Repa.Repr.HintSmall: could not find link destinations for:
+    D:R:ArraySsha0 D:R:ArrayDsha0 D:R:ArrayFsha0 D:R:ArrayVsha0 D:R:ArrayXshe0 D:R:ArrayCsha0 D:R:ArrayUsha0 D:R:ArrayBshWord80 D:R:ArrayIsha0 D:R:ArrayPshe0
+Warning: Data.Array.Repa.Repr.Delayed: could not find link destinations for:
+    D:R:ArrayDsha0 D:R:ArrayFsha0 D:R:ArrayVsha0 D:R:ArrayXshe0 D:R:ArrayCsha0 D:R:ArrayUsha0 D:R:ArrayBshWord80 D:R:ArraySsha0 D:R:ArrayIsha0 D:R:ArrayPshe0
+Warning: Data.Array.Repa.Repr.HintInterleave: could not find link destinations for:
+    D:R:ArrayIsha0 D:R:ArrayDsha0 D:R:ArrayFsha0 D:R:ArrayVsha0 D:R:ArrayXshe0 D:R:ArrayCsha0 D:R:ArrayUsha0 D:R:ArrayBshWord80 D:R:ArraySsha0 D:R:ArrayPshe0
+Warning: Data.Array.Repa.Repr.ForeignPtr: could not find link destinations for:
+    D:R:ArrayFsha0 D:R:MVecFe0 FPVec D:R:ArrayDsha0 D:R:ArrayVsha0 D:R:ArrayXshe0 D:R:ArrayCsha0 D:R:ArrayUsha0 D:R:ArrayBshWord80 D:R:ArraySsha0 D:R:ArrayIsha0 D:R:ArrayPshe0
+Warning: Data.Array.Repa.Repr.ByteString: could not find link destinations for:
+    D:R:ArrayBshWord80 D:R:ArrayDsha0 D:R:ArrayFsha0 D:R:ArrayVsha0 D:R:ArrayXshe0 D:R:ArrayCsha0 D:R:ArrayUsha0 D:R:ArraySsha0 D:R:ArrayIsha0 D:R:ArrayPshe0
+Warning: Data.Array.Repa.Eval: could not find link destinations for:
+    GElt
+Warning: Data.Array.Repa.Repr.Vector: could not find link destinations for:
+    D:R:ArrayVsha0 D:R:MVecVe0 MVector D:R:ArrayDsha0 D:R:ArrayFsha0 D:R:ArrayXshe0 D:R:ArrayCsha0 D:R:ArrayUsha0 D:R:ArrayBshWord80 D:R:ArraySsha0 D:R:ArrayIsha0 D:R:ArrayPshe0
+Warning: Data.Array.Repa.Repr.Undefined: could not find link destinations for:
+    D:R:ArrayXshe0 D:R:ArrayDsha0 D:R:ArrayFsha0 D:R:ArrayVsha0 D:R:ArrayCsha0 D:R:ArrayUsha0 D:R:ArrayBshWord80 D:R:ArraySsha0 D:R:ArrayIsha0 D:R:ArrayPshe0
+Warning: Data.Array.Repa.Repr.Cursored: could not find link destinations for:
+    D:R:ArrayCsha0 D:R:ArrayDsha0 D:R:ArrayFsha0 D:R:ArrayVsha0 D:R:ArrayXshe0 D:R:ArrayUsha0 D:R:ArrayBshWord80 D:R:ArraySsha0 D:R:ArrayIsha0 D:R:ArrayPshe0
+Warning: Data.Array.Repa.Repr.Unboxed: could not find link destinations for:
+    D:R:ArrayUsha0 D:R:MVecUe0 UMVec D:R:ArrayDsha0 D:R:ArrayFsha0 D:R:ArrayVsha0 D:R:ArrayXshe0 D:R:ArrayCsha0 D:R:ArrayBshWord80 D:R:ArraySsha0 D:R:ArrayIsha0 D:R:ArrayPshe0
+Warning: Data.Array.Repa.Repr.Partitioned: could not find link destinations for:
+    D:R:ArrayPshe0 D:R:ArrayDsha0 D:R:ArrayFsha0 D:R:ArrayVsha0 D:R:ArrayXshe0 D:R:ArrayCsha0 D:R:ArrayUsha0 D:R:ArrayBshWord80 D:R:ArraySsha0 D:R:ArrayIsha0
+Warning: Data.Array.Repa: could not find link destinations for:
+    D:R:ArrayDsha0 D:R:ArrayUsha0 D:R:MVecUe0 UMVec
+Documentation created: dist/dist-sandbox-3b735470/doc/html/repa/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/repa-3.4.1.4-LZgKV1VI9RR3L3SjpuKPH
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-77183/repa-3.4.1.4'

@@ -1,0 +1,5 @@
+gloss-juicy -any
+repa -any
+codec -any
+JuicyPixels -any
+gloss ==1.*

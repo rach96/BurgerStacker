@@ -1,0 +1,22 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71383/base-orphans-0.8'
+Configuring base-orphans-0.8...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for base-orphans-0.8..
+Building library for base-orphans-0.8..
+[1 of 2] Compiling Data.Orphans.Prelude ( src/Data/Orphans/Prelude.hs, dist/dist-sandbox-3b735470/build/Data/Orphans/Prelude.o )
+[2 of 2] Compiling Data.Orphans     ( src/Data/Orphans.hs, dist/dist-sandbox-3b735470/build/Data/Orphans.o )
+[1 of 2] Compiling Data.Orphans.Prelude ( src/Data/Orphans/Prelude.hs, dist/dist-sandbox-3b735470/build/Data/Orphans/Prelude.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 2] Compiling Data.Orphans     ( src/Data/Orphans.hs, dist/dist-sandbox-3b735470/build/Data/Orphans.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for base-orphans-0.8..
+Running Haddock on library for base-orphans-0.8..
+Haddock coverage:
+ 100% (  1 /  1) in 'Data.Orphans'
+Documentation created:
+dist/dist-sandbox-3b735470/doc/html/base-orphans/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/base-orphans-0.8-DnR0b2Qpwpe17jvCBohN6x
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71383/base-orphans-0.8'

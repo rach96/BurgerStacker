@@ -1,0 +1,734 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71382/base-compat-0.10.4'
+Configuring base-compat-0.10.4...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for base-compat-0.10.4..
+Building library for base-compat-0.10.4..
+[  1 of 112] Compiling Control.Concurrent.Compat ( src/Control/Concurrent/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/Compat.o )
+[  2 of 112] Compiling Control.Concurrent.Compat.Repl ( src/Control/Concurrent/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/Compat/Repl.o )
+[  3 of 112] Compiling Control.Concurrent.MVar.Compat ( src/Control/Concurrent/MVar/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/MVar/Compat.o )
+[  4 of 112] Compiling Control.Concurrent.MVar.Compat.Repl ( src/Control/Concurrent/MVar/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/MVar/Compat/Repl.o )
+[  5 of 112] Compiling Control.Exception.Compat ( src/Control/Exception/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Exception/Compat.o )
+[  6 of 112] Compiling Control.Exception.Compat.Repl ( src/Control/Exception/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Exception/Compat/Repl.o )
+[  7 of 112] Compiling Control.Monad.Compat ( src/Control/Monad/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Monad/Compat.o )
+[  8 of 112] Compiling Control.Monad.Compat.Repl ( src/Control/Monad/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Monad/Compat/Repl.o )
+[  9 of 112] Compiling Control.Monad.Fail.Compat ( src/Control/Monad/Fail/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Monad/Fail/Compat.o )
+[ 10 of 112] Compiling Control.Monad.Fail.Compat.Repl ( src/Control/Monad/Fail/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Monad/Fail/Compat/Repl.o )
+[ 11 of 112] Compiling Control.Monad.IO.Class.Compat ( src/Control/Monad/IO/Class/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Monad/IO/Class/Compat.o )
+[ 12 of 112] Compiling Control.Monad.IO.Class.Compat.Repl ( src/Control/Monad/IO/Class/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Monad/IO/Class/Compat/Repl.o )
+[ 13 of 112] Compiling Control.Monad.ST.Lazy.Unsafe.Compat ( src/Control/Monad/ST/Lazy/Unsafe/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Monad/ST/Lazy/Unsafe/Compat.o )
+[ 14 of 112] Compiling Control.Monad.ST.Lazy.Unsafe.Compat.Repl ( src/Control/Monad/ST/Lazy/Unsafe/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Monad/ST/Lazy/Unsafe/Compat/Repl.o )
+[ 15 of 112] Compiling Control.Monad.ST.Unsafe.Compat ( src/Control/Monad/ST/Unsafe/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Monad/ST/Unsafe/Compat.o )
+[ 16 of 112] Compiling Control.Monad.ST.Unsafe.Compat.Repl ( src/Control/Monad/ST/Unsafe/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Monad/ST/Unsafe/Compat/Repl.o )
+[ 17 of 112] Compiling Data.Bifoldable.Compat ( src/Data/Bifoldable/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Bifoldable/Compat.o )
+[ 18 of 112] Compiling Data.Bifoldable.Compat.Repl ( src/Data/Bifoldable/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Bifoldable/Compat/Repl.o )
+[ 19 of 112] Compiling Data.Bifunctor.Compat ( src/Data/Bifunctor/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Compat.o )
+[ 20 of 112] Compiling Data.Bifunctor.Compat.Repl ( src/Data/Bifunctor/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Compat/Repl.o )
+[ 21 of 112] Compiling Data.Bitraversable.Compat ( src/Data/Bitraversable/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Bitraversable/Compat.o )
+[ 22 of 112] Compiling Data.Bitraversable.Compat.Repl ( src/Data/Bitraversable/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Bitraversable/Compat/Repl.o )
+[ 23 of 112] Compiling Data.Bits.Compat ( src/Data/Bits/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Bits/Compat.o )
+[ 24 of 112] Compiling Data.Bits.Compat.Repl ( src/Data/Bits/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Bits/Compat/Repl.o )
+[ 25 of 112] Compiling Data.Bool.Compat ( src/Data/Bool/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Bool/Compat.o )
+[ 26 of 112] Compiling Data.Bool.Compat.Repl ( src/Data/Bool/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Bool/Compat/Repl.o )
+[ 27 of 112] Compiling Data.Complex.Compat ( src/Data/Complex/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Complex/Compat.o )
+[ 28 of 112] Compiling Data.Complex.Compat.Repl ( src/Data/Complex/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Complex/Compat/Repl.o )
+[ 29 of 112] Compiling Data.Either.Compat ( src/Data/Either/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Either/Compat.o )
+[ 30 of 112] Compiling Data.Either.Compat.Repl ( src/Data/Either/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Either/Compat/Repl.o )
+[ 31 of 112] Compiling Data.Foldable.Compat ( src/Data/Foldable/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Foldable/Compat.o )
+[ 32 of 112] Compiling Data.Foldable.Compat.Repl ( src/Data/Foldable/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Foldable/Compat/Repl.o )
+[ 33 of 112] Compiling Data.Function.Compat ( src/Data/Function/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Function/Compat.o )
+[ 34 of 112] Compiling Data.Function.Compat.Repl ( src/Data/Function/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Function/Compat/Repl.o )
+[ 35 of 112] Compiling Data.Functor.Compat ( src/Data/Functor/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Compat.o )
+[ 36 of 112] Compiling Data.Functor.Compat.Repl ( src/Data/Functor/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Compat/Repl.o )
+[ 37 of 112] Compiling Data.Functor.Compose.Compat ( src/Data/Functor/Compose/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Compose/Compat.o )
+[ 38 of 112] Compiling Data.Functor.Compose.Compat.Repl ( src/Data/Functor/Compose/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Compose/Compat/Repl.o )
+[ 39 of 112] Compiling Data.Functor.Const.Compat ( src/Data/Functor/Const/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Const/Compat.o )
+[ 40 of 112] Compiling Data.Functor.Const.Compat.Repl ( src/Data/Functor/Const/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Const/Compat/Repl.o )
+[ 41 of 112] Compiling Data.Functor.Contravariant.Compat ( src/Data/Functor/Contravariant/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Contravariant/Compat.o )
+[ 42 of 112] Compiling Data.Functor.Contravariant.Compat.Repl ( src/Data/Functor/Contravariant/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Contravariant/Compat/Repl.o )
+[ 43 of 112] Compiling Data.Functor.Identity.Compat ( src/Data/Functor/Identity/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Identity/Compat.o )
+[ 44 of 112] Compiling Data.Functor.Identity.Compat.Repl ( src/Data/Functor/Identity/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Identity/Compat/Repl.o )
+[ 45 of 112] Compiling Data.Functor.Product.Compat ( src/Data/Functor/Product/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Product/Compat.o )
+[ 46 of 112] Compiling Data.Functor.Product.Compat.Repl ( src/Data/Functor/Product/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Product/Compat/Repl.o )
+[ 47 of 112] Compiling Data.Functor.Sum.Compat ( src/Data/Functor/Sum/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Sum/Compat.o )
+[ 48 of 112] Compiling Data.Functor.Sum.Compat.Repl ( src/Data/Functor/Sum/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Sum/Compat/Repl.o )
+[ 49 of 112] Compiling Data.IORef.Compat ( src/Data/IORef/Compat.hs, dist/dist-sandbox-3b735470/build/Data/IORef/Compat.o )
+[ 50 of 112] Compiling Data.IORef.Compat.Repl ( src/Data/IORef/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/IORef/Compat/Repl.o )
+[ 51 of 112] Compiling Data.List.Compat ( src/Data/List/Compat.hs, dist/dist-sandbox-3b735470/build/Data/List/Compat.o )
+[ 52 of 112] Compiling Data.List.Compat.Repl ( src/Data/List/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/List/Compat/Repl.o )
+[ 53 of 112] Compiling Data.List.NonEmpty.Compat ( src/Data/List/NonEmpty/Compat.hs, dist/dist-sandbox-3b735470/build/Data/List/NonEmpty/Compat.o )
+[ 54 of 112] Compiling Data.List.NonEmpty.Compat.Repl ( src/Data/List/NonEmpty/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/List/NonEmpty/Compat/Repl.o )
+[ 55 of 112] Compiling Data.Monoid.Compat ( src/Data/Monoid/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Monoid/Compat.o )
+[ 56 of 112] Compiling Data.Monoid.Compat.Repl ( src/Data/Monoid/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Monoid/Compat/Repl.o )
+[ 57 of 112] Compiling Data.Proxy.Compat ( src/Data/Proxy/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Proxy/Compat.o )
+[ 58 of 112] Compiling Data.Proxy.Compat.Repl ( src/Data/Proxy/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Proxy/Compat/Repl.o )
+[ 59 of 112] Compiling Data.Ratio.Compat ( src/Data/Ratio/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Ratio/Compat.o )
+[ 60 of 112] Compiling Data.Ratio.Compat.Repl ( src/Data/Ratio/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Ratio/Compat/Repl.o )
+[ 61 of 112] Compiling Data.STRef.Compat ( src/Data/STRef/Compat.hs, dist/dist-sandbox-3b735470/build/Data/STRef/Compat.o )
+[ 62 of 112] Compiling Data.STRef.Compat.Repl ( src/Data/STRef/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/STRef/Compat/Repl.o )
+[ 63 of 112] Compiling Data.Semigroup.Compat ( src/Data/Semigroup/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Semigroup/Compat.o )
+[ 64 of 112] Compiling Data.Semigroup.Compat.Repl ( src/Data/Semigroup/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Semigroup/Compat/Repl.o )
+[ 65 of 112] Compiling Data.String.Compat ( src/Data/String/Compat.hs, dist/dist-sandbox-3b735470/build/Data/String/Compat.o )
+[ 66 of 112] Compiling Data.String.Compat.Repl ( src/Data/String/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/String/Compat/Repl.o )
+[ 67 of 112] Compiling Data.Type.Coercion.Compat ( src/Data/Type/Coercion/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Type/Coercion/Compat.o )
+[ 68 of 112] Compiling Data.Type.Coercion.Compat.Repl ( src/Data/Type/Coercion/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Type/Coercion/Compat/Repl.o )
+[ 69 of 112] Compiling Data.Version.Compat ( src/Data/Version/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Version/Compat.o )
+[ 70 of 112] Compiling Data.Version.Compat.Repl ( src/Data/Version/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Version/Compat/Repl.o )
+[ 71 of 112] Compiling Data.Void.Compat ( src/Data/Void/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Void/Compat.o )
+[ 72 of 112] Compiling Data.Void.Compat.Repl ( src/Data/Void/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Void/Compat/Repl.o )
+[ 73 of 112] Compiling Data.Word.Compat ( src/Data/Word/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Word/Compat.o )
+[ 74 of 112] Compiling Data.Word.Compat.Repl ( src/Data/Word/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Word/Compat/Repl.o )
+[ 75 of 112] Compiling Debug.Trace.Compat ( src/Debug/Trace/Compat.hs, dist/dist-sandbox-3b735470/build/Debug/Trace/Compat.o )
+[ 76 of 112] Compiling Debug.Trace.Compat.Repl ( src/Debug/Trace/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Debug/Trace/Compat/Repl.o )
+[ 77 of 112] Compiling Foreign.ForeignPtr.Compat ( src/Foreign/ForeignPtr/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/ForeignPtr/Compat.o )
+[ 78 of 112] Compiling Foreign.ForeignPtr.Compat.Repl ( src/Foreign/ForeignPtr/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/ForeignPtr/Compat/Repl.o )
+[ 79 of 112] Compiling Foreign.ForeignPtr.Safe.Compat ( src/Foreign/ForeignPtr/Safe/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/ForeignPtr/Safe/Compat.o )
+[ 80 of 112] Compiling Foreign.ForeignPtr.Safe.Compat.Repl ( src/Foreign/ForeignPtr/Safe/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/ForeignPtr/Safe/Compat/Repl.o )
+[ 81 of 112] Compiling Foreign.ForeignPtr.Unsafe.Compat ( src/Foreign/ForeignPtr/Unsafe/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/ForeignPtr/Unsafe/Compat.o )
+[ 82 of 112] Compiling Foreign.ForeignPtr.Unsafe.Compat.Repl ( src/Foreign/ForeignPtr/Unsafe/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/ForeignPtr/Unsafe/Compat/Repl.o )
+[ 83 of 112] Compiling Foreign.Marshal.Alloc.Compat ( src/Foreign/Marshal/Alloc/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Alloc/Compat.o )
+[ 84 of 112] Compiling Foreign.Marshal.Alloc.Compat.Repl ( src/Foreign/Marshal/Alloc/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Alloc/Compat/Repl.o )
+[ 85 of 112] Compiling Foreign.Marshal.Array.Compat ( src/Foreign/Marshal/Array/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Array/Compat.o )
+[ 86 of 112] Compiling Foreign.Marshal.Array.Compat.Repl ( src/Foreign/Marshal/Array/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Array/Compat/Repl.o )
+[ 87 of 112] Compiling Foreign.Marshal.Safe.Compat ( src/Foreign/Marshal/Safe/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Safe/Compat.o )
+[ 88 of 112] Compiling Foreign.Marshal.Safe.Compat.Repl ( src/Foreign/Marshal/Safe/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Safe/Compat/Repl.o )
+[ 89 of 112] Compiling Foreign.Marshal.Unsafe.Compat ( src/Foreign/Marshal/Unsafe/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Unsafe/Compat.o )
+[ 90 of 112] Compiling Foreign.Marshal.Unsafe.Compat.Repl ( src/Foreign/Marshal/Unsafe/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Unsafe/Compat/Repl.o )
+[ 91 of 112] Compiling Foreign.Marshal.Utils.Compat ( src/Foreign/Marshal/Utils/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Utils/Compat.o )
+[ 92 of 112] Compiling Foreign.Marshal.Compat ( src/Foreign/Marshal/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Compat.o )
+[ 93 of 112] Compiling Foreign.Marshal.Compat.Repl ( src/Foreign/Marshal/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Compat/Repl.o )
+[ 94 of 112] Compiling Foreign.Compat   ( src/Foreign/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/Compat.o )
+[ 95 of 112] Compiling Foreign.Compat.Repl ( src/Foreign/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/Compat/Repl.o )
+[ 96 of 112] Compiling Foreign.Marshal.Utils.Compat.Repl ( src/Foreign/Marshal/Utils/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Utils/Compat/Repl.o )
+[ 97 of 112] Compiling Numeric.Compat   ( src/Numeric/Compat.hs, dist/dist-sandbox-3b735470/build/Numeric/Compat.o )
+[ 98 of 112] Compiling Numeric.Compat.Repl ( src/Numeric/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Numeric/Compat/Repl.o )
+[ 99 of 112] Compiling Numeric.Natural.Compat ( src/Numeric/Natural/Compat.hs, dist/dist-sandbox-3b735470/build/Numeric/Natural/Compat.o )
+[100 of 112] Compiling Numeric.Natural.Compat.Repl ( src/Numeric/Natural/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Numeric/Natural/Compat/Repl.o )
+[101 of 112] Compiling Prelude.Compat   ( src/Prelude/Compat.hs, dist/dist-sandbox-3b735470/build/Prelude/Compat.o )
+[102 of 112] Compiling Prelude.Compat.Repl ( src/Prelude/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Prelude/Compat/Repl.o )
+[103 of 112] Compiling System.Environment.Compat ( src/System/Environment/Compat.hs, dist/dist-sandbox-3b735470/build/System/Environment/Compat.o )
+[104 of 112] Compiling System.Environment.Compat.Repl ( src/System/Environment/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/System/Environment/Compat/Repl.o )
+[105 of 112] Compiling System.Exit.Compat ( src/System/Exit/Compat.hs, dist/dist-sandbox-3b735470/build/System/Exit/Compat.o )
+[106 of 112] Compiling System.Exit.Compat.Repl ( src/System/Exit/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/System/Exit/Compat/Repl.o )
+[107 of 112] Compiling System.IO.Unsafe.Compat ( src/System/IO/Unsafe/Compat.hs, dist/dist-sandbox-3b735470/build/System/IO/Unsafe/Compat.o )
+[108 of 112] Compiling System.IO.Unsafe.Compat.Repl ( src/System/IO/Unsafe/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/System/IO/Unsafe/Compat/Repl.o )
+[109 of 112] Compiling Text.Read.Compat ( src/Text/Read/Compat.hs, dist/dist-sandbox-3b735470/build/Text/Read/Compat.o )
+[110 of 112] Compiling Text.Read.Compat.Repl ( src/Text/Read/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Text/Read/Compat/Repl.o )
+[111 of 112] Compiling Type.Reflection.Compat ( src/Type/Reflection/Compat.hs, dist/dist-sandbox-3b735470/build/Type/Reflection/Compat.o )
+[112 of 112] Compiling Type.Reflection.Compat.Repl ( src/Type/Reflection/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Type/Reflection/Compat/Repl.o )
+[  1 of 112] Compiling Control.Concurrent.Compat ( src/Control/Concurrent/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[  2 of 112] Compiling Control.Concurrent.Compat.Repl ( src/Control/Concurrent/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[  3 of 112] Compiling Control.Concurrent.MVar.Compat ( src/Control/Concurrent/MVar/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/MVar/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[  4 of 112] Compiling Control.Concurrent.MVar.Compat.Repl ( src/Control/Concurrent/MVar/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Concurrent/MVar/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[  5 of 112] Compiling Control.Exception.Compat ( src/Control/Exception/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Exception/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[  6 of 112] Compiling Control.Exception.Compat.Repl ( src/Control/Exception/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Exception/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[  7 of 112] Compiling Control.Monad.Compat ( src/Control/Monad/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Monad/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[  8 of 112] Compiling Control.Monad.Compat.Repl ( src/Control/Monad/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Monad/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[  9 of 112] Compiling Control.Monad.Fail.Compat ( src/Control/Monad/Fail/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Monad/Fail/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 10 of 112] Compiling Control.Monad.Fail.Compat.Repl ( src/Control/Monad/Fail/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Monad/Fail/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 11 of 112] Compiling Control.Monad.IO.Class.Compat ( src/Control/Monad/IO/Class/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Monad/IO/Class/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 12 of 112] Compiling Control.Monad.IO.Class.Compat.Repl ( src/Control/Monad/IO/Class/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Monad/IO/Class/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 13 of 112] Compiling Control.Monad.ST.Lazy.Unsafe.Compat ( src/Control/Monad/ST/Lazy/Unsafe/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Monad/ST/Lazy/Unsafe/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 14 of 112] Compiling Control.Monad.ST.Lazy.Unsafe.Compat.Repl ( src/Control/Monad/ST/Lazy/Unsafe/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Monad/ST/Lazy/Unsafe/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 15 of 112] Compiling Control.Monad.ST.Unsafe.Compat ( src/Control/Monad/ST/Unsafe/Compat.hs, dist/dist-sandbox-3b735470/build/Control/Monad/ST/Unsafe/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 16 of 112] Compiling Control.Monad.ST.Unsafe.Compat.Repl ( src/Control/Monad/ST/Unsafe/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Control/Monad/ST/Unsafe/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 17 of 112] Compiling Data.Bifoldable.Compat ( src/Data/Bifoldable/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Bifoldable/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 18 of 112] Compiling Data.Bifoldable.Compat.Repl ( src/Data/Bifoldable/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Bifoldable/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 19 of 112] Compiling Data.Bifunctor.Compat ( src/Data/Bifunctor/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 20 of 112] Compiling Data.Bifunctor.Compat.Repl ( src/Data/Bifunctor/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Bifunctor/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 21 of 112] Compiling Data.Bitraversable.Compat ( src/Data/Bitraversable/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Bitraversable/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 22 of 112] Compiling Data.Bitraversable.Compat.Repl ( src/Data/Bitraversable/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Bitraversable/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 23 of 112] Compiling Data.Bits.Compat ( src/Data/Bits/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Bits/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 24 of 112] Compiling Data.Bits.Compat.Repl ( src/Data/Bits/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Bits/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 25 of 112] Compiling Data.Bool.Compat ( src/Data/Bool/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Bool/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 26 of 112] Compiling Data.Bool.Compat.Repl ( src/Data/Bool/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Bool/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 27 of 112] Compiling Data.Complex.Compat ( src/Data/Complex/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Complex/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 28 of 112] Compiling Data.Complex.Compat.Repl ( src/Data/Complex/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Complex/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 29 of 112] Compiling Data.Either.Compat ( src/Data/Either/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Either/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 30 of 112] Compiling Data.Either.Compat.Repl ( src/Data/Either/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Either/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 31 of 112] Compiling Data.Foldable.Compat ( src/Data/Foldable/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Foldable/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 32 of 112] Compiling Data.Foldable.Compat.Repl ( src/Data/Foldable/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Foldable/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 33 of 112] Compiling Data.Function.Compat ( src/Data/Function/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Function/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 34 of 112] Compiling Data.Function.Compat.Repl ( src/Data/Function/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Function/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 35 of 112] Compiling Data.Functor.Compat ( src/Data/Functor/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 36 of 112] Compiling Data.Functor.Compat.Repl ( src/Data/Functor/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 37 of 112] Compiling Data.Functor.Compose.Compat ( src/Data/Functor/Compose/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Compose/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 38 of 112] Compiling Data.Functor.Compose.Compat.Repl ( src/Data/Functor/Compose/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Compose/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 39 of 112] Compiling Data.Functor.Const.Compat ( src/Data/Functor/Const/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Const/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 40 of 112] Compiling Data.Functor.Const.Compat.Repl ( src/Data/Functor/Const/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Const/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 41 of 112] Compiling Data.Functor.Contravariant.Compat ( src/Data/Functor/Contravariant/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Contravariant/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 42 of 112] Compiling Data.Functor.Contravariant.Compat.Repl ( src/Data/Functor/Contravariant/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Contravariant/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 43 of 112] Compiling Data.Functor.Identity.Compat ( src/Data/Functor/Identity/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Identity/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 44 of 112] Compiling Data.Functor.Identity.Compat.Repl ( src/Data/Functor/Identity/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Identity/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 45 of 112] Compiling Data.Functor.Product.Compat ( src/Data/Functor/Product/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Product/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 46 of 112] Compiling Data.Functor.Product.Compat.Repl ( src/Data/Functor/Product/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Product/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 47 of 112] Compiling Data.Functor.Sum.Compat ( src/Data/Functor/Sum/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Sum/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 48 of 112] Compiling Data.Functor.Sum.Compat.Repl ( src/Data/Functor/Sum/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Functor/Sum/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 49 of 112] Compiling Data.IORef.Compat ( src/Data/IORef/Compat.hs, dist/dist-sandbox-3b735470/build/Data/IORef/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 50 of 112] Compiling Data.IORef.Compat.Repl ( src/Data/IORef/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/IORef/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 51 of 112] Compiling Data.List.Compat ( src/Data/List/Compat.hs, dist/dist-sandbox-3b735470/build/Data/List/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 52 of 112] Compiling Data.List.Compat.Repl ( src/Data/List/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/List/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 53 of 112] Compiling Data.List.NonEmpty.Compat ( src/Data/List/NonEmpty/Compat.hs, dist/dist-sandbox-3b735470/build/Data/List/NonEmpty/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 54 of 112] Compiling Data.List.NonEmpty.Compat.Repl ( src/Data/List/NonEmpty/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/List/NonEmpty/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 55 of 112] Compiling Data.Monoid.Compat ( src/Data/Monoid/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Monoid/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 56 of 112] Compiling Data.Monoid.Compat.Repl ( src/Data/Monoid/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Monoid/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 57 of 112] Compiling Data.Proxy.Compat ( src/Data/Proxy/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Proxy/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 58 of 112] Compiling Data.Proxy.Compat.Repl ( src/Data/Proxy/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Proxy/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 59 of 112] Compiling Data.Ratio.Compat ( src/Data/Ratio/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Ratio/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 60 of 112] Compiling Data.Ratio.Compat.Repl ( src/Data/Ratio/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Ratio/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 61 of 112] Compiling Data.STRef.Compat ( src/Data/STRef/Compat.hs, dist/dist-sandbox-3b735470/build/Data/STRef/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 62 of 112] Compiling Data.STRef.Compat.Repl ( src/Data/STRef/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/STRef/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 63 of 112] Compiling Data.Semigroup.Compat ( src/Data/Semigroup/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Semigroup/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 64 of 112] Compiling Data.Semigroup.Compat.Repl ( src/Data/Semigroup/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Semigroup/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 65 of 112] Compiling Data.String.Compat ( src/Data/String/Compat.hs, dist/dist-sandbox-3b735470/build/Data/String/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 66 of 112] Compiling Data.String.Compat.Repl ( src/Data/String/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/String/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 67 of 112] Compiling Data.Type.Coercion.Compat ( src/Data/Type/Coercion/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Type/Coercion/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 68 of 112] Compiling Data.Type.Coercion.Compat.Repl ( src/Data/Type/Coercion/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Type/Coercion/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 69 of 112] Compiling Data.Version.Compat ( src/Data/Version/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Version/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 70 of 112] Compiling Data.Version.Compat.Repl ( src/Data/Version/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Version/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 71 of 112] Compiling Data.Void.Compat ( src/Data/Void/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Void/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 72 of 112] Compiling Data.Void.Compat.Repl ( src/Data/Void/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Void/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 73 of 112] Compiling Data.Word.Compat ( src/Data/Word/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Word/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 74 of 112] Compiling Data.Word.Compat.Repl ( src/Data/Word/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Data/Word/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 75 of 112] Compiling Debug.Trace.Compat ( src/Debug/Trace/Compat.hs, dist/dist-sandbox-3b735470/build/Debug/Trace/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 76 of 112] Compiling Debug.Trace.Compat.Repl ( src/Debug/Trace/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Debug/Trace/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 77 of 112] Compiling Foreign.ForeignPtr.Compat ( src/Foreign/ForeignPtr/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/ForeignPtr/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 78 of 112] Compiling Foreign.ForeignPtr.Compat.Repl ( src/Foreign/ForeignPtr/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/ForeignPtr/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 79 of 112] Compiling Foreign.ForeignPtr.Safe.Compat ( src/Foreign/ForeignPtr/Safe/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/ForeignPtr/Safe/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 80 of 112] Compiling Foreign.ForeignPtr.Safe.Compat.Repl ( src/Foreign/ForeignPtr/Safe/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/ForeignPtr/Safe/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 81 of 112] Compiling Foreign.ForeignPtr.Unsafe.Compat ( src/Foreign/ForeignPtr/Unsafe/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/ForeignPtr/Unsafe/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 82 of 112] Compiling Foreign.ForeignPtr.Unsafe.Compat.Repl ( src/Foreign/ForeignPtr/Unsafe/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/ForeignPtr/Unsafe/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 83 of 112] Compiling Foreign.Marshal.Alloc.Compat ( src/Foreign/Marshal/Alloc/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Alloc/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 84 of 112] Compiling Foreign.Marshal.Alloc.Compat.Repl ( src/Foreign/Marshal/Alloc/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Alloc/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 85 of 112] Compiling Foreign.Marshal.Array.Compat ( src/Foreign/Marshal/Array/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Array/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 86 of 112] Compiling Foreign.Marshal.Array.Compat.Repl ( src/Foreign/Marshal/Array/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Array/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 87 of 112] Compiling Foreign.Marshal.Safe.Compat ( src/Foreign/Marshal/Safe/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Safe/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 88 of 112] Compiling Foreign.Marshal.Safe.Compat.Repl ( src/Foreign/Marshal/Safe/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Safe/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 89 of 112] Compiling Foreign.Marshal.Unsafe.Compat ( src/Foreign/Marshal/Unsafe/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Unsafe/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 90 of 112] Compiling Foreign.Marshal.Unsafe.Compat.Repl ( src/Foreign/Marshal/Unsafe/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Unsafe/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 91 of 112] Compiling Foreign.Marshal.Utils.Compat ( src/Foreign/Marshal/Utils/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Utils/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 92 of 112] Compiling Foreign.Marshal.Compat ( src/Foreign/Marshal/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 93 of 112] Compiling Foreign.Marshal.Compat.Repl ( src/Foreign/Marshal/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 94 of 112] Compiling Foreign.Compat   ( src/Foreign/Compat.hs, dist/dist-sandbox-3b735470/build/Foreign/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 95 of 112] Compiling Foreign.Compat.Repl ( src/Foreign/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 96 of 112] Compiling Foreign.Marshal.Utils.Compat.Repl ( src/Foreign/Marshal/Utils/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Foreign/Marshal/Utils/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 97 of 112] Compiling Numeric.Compat   ( src/Numeric/Compat.hs, dist/dist-sandbox-3b735470/build/Numeric/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 98 of 112] Compiling Numeric.Compat.Repl ( src/Numeric/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Numeric/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 99 of 112] Compiling Numeric.Natural.Compat ( src/Numeric/Natural/Compat.hs, dist/dist-sandbox-3b735470/build/Numeric/Natural/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[100 of 112] Compiling Numeric.Natural.Compat.Repl ( src/Numeric/Natural/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Numeric/Natural/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[101 of 112] Compiling Prelude.Compat   ( src/Prelude/Compat.hs, dist/dist-sandbox-3b735470/build/Prelude/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[102 of 112] Compiling Prelude.Compat.Repl ( src/Prelude/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Prelude/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[103 of 112] Compiling System.Environment.Compat ( src/System/Environment/Compat.hs, dist/dist-sandbox-3b735470/build/System/Environment/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[104 of 112] Compiling System.Environment.Compat.Repl ( src/System/Environment/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/System/Environment/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[105 of 112] Compiling System.Exit.Compat ( src/System/Exit/Compat.hs, dist/dist-sandbox-3b735470/build/System/Exit/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[106 of 112] Compiling System.Exit.Compat.Repl ( src/System/Exit/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/System/Exit/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[107 of 112] Compiling System.IO.Unsafe.Compat ( src/System/IO/Unsafe/Compat.hs, dist/dist-sandbox-3b735470/build/System/IO/Unsafe/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[108 of 112] Compiling System.IO.Unsafe.Compat.Repl ( src/System/IO/Unsafe/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/System/IO/Unsafe/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[109 of 112] Compiling Text.Read.Compat ( src/Text/Read/Compat.hs, dist/dist-sandbox-3b735470/build/Text/Read/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[110 of 112] Compiling Text.Read.Compat.Repl ( src/Text/Read/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Text/Read/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[111 of 112] Compiling Type.Reflection.Compat ( src/Type/Reflection/Compat.hs, dist/dist-sandbox-3b735470/build/Type/Reflection/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[112 of 112] Compiling Type.Reflection.Compat.Repl ( src/Type/Reflection/Compat/Repl.hs, dist/dist-sandbox-3b735470/build/Type/Reflection/Compat/Repl.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for base-compat-0.10.4..
+Running Haddock on library for base-compat-0.10.4..
+Haddock coverage:
+  75% (  3 /  4) in 'Control.Concurrent.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Control.Concurrent.Compat.Repl'
+  67% (  2 /  3) in 'Control.Concurrent.MVar.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Control.Concurrent.MVar.Compat.Repl'
+  98% ( 52 / 53) in 'Control.Exception.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Control.Exception.Compat.Repl'
+  75% (  3 /  4) in 'Control.Monad.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Control.Monad.Compat.Repl'
+  50% (  1 /  2) in 'Control.Monad.Fail.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Control.Monad.Fail.Compat.Repl'
+  50% (  1 /  2) in 'Control.Monad.IO.Class.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Control.Monad.IO.Class.Compat.Repl'
+  25% (  1 /  4) in 'Control.Monad.ST.Lazy.Unsafe.Compat'
+  Missing documentation for:
+    Module header
+    unsafeInterleaveST
+    unsafeIOToST
+ 100% (  2 /  2) in 'Control.Monad.ST.Lazy.Unsafe.Compat.Repl'
+  80% (  4 /  5) in 'Control.Monad.ST.Unsafe.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Control.Monad.ST.Unsafe.Compat.Repl'
+  50% (  1 /  2) in 'Data.Bifoldable.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Bifoldable.Compat.Repl'
+  50% (  1 /  2) in 'Data.Bifunctor.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Bifunctor.Compat.Repl'
+  50% (  1 /  2) in 'Data.Bitraversable.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Bitraversable.Compat.Repl'
+  83% (  5 /  6) in 'Data.Bits.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Bits.Compat.Repl'
+  67% (  2 /  3) in 'Data.Bool.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Bool.Compat.Repl'
+  50% (  1 /  2) in 'Data.Complex.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Complex.Compat.Repl'
+  83% (  5 /  6) in 'Data.Either.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Either.Compat.Repl'
+  50% (  1 /  2) in 'Data.Foldable.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Foldable.Compat.Repl'
+  67% (  2 /  3) in 'Data.Function.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Function.Compat.Repl'
+  83% (  5 /  6) in 'Data.Functor.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Functor.Compat.Repl'
+  50% (  1 /  2) in 'Data.Functor.Compose.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Functor.Compose.Compat.Repl'
+  50% (  1 /  2) in 'Data.Functor.Const.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Functor.Const.Compat.Repl'
+   0% (  0 /  1) in 'Data.Functor.Contravariant.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Functor.Contravariant.Compat.Repl'
+  50% (  1 /  2) in 'Data.Functor.Identity.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Functor.Identity.Compat.Repl'
+  50% (  1 /  2) in 'Data.Functor.Product.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Functor.Product.Compat.Repl'
+  50% (  1 /  2) in 'Data.Functor.Sum.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Functor.Sum.Compat.Repl'
+  80% (  4 /  5) in 'Data.IORef.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.IORef.Compat.Repl'
+  50% (  1 /  2) in 'Data.List.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.List.Compat.Repl'
+ 100% ( 68 / 68) in 'Data.List.NonEmpty.Compat'
+ 100% (  2 /  2) in 'Data.List.NonEmpty.Compat.Repl'
+  92% ( 11 / 12) in 'Data.Monoid.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Monoid.Compat.Repl'
+  67% (  2 /  3) in 'Data.Proxy.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Proxy.Compat.Repl'
+  50% (  1 /  2) in 'Data.Ratio.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Ratio.Compat.Repl'
+  67% (  2 /  3) in 'Data.STRef.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.STRef.Compat.Repl'
+  86% ( 25 / 29) in 'Data.Semigroup.Compat'
+  Missing documentation for:
+    Min
+    Max
+    ArgMin
+    ArgMax
+ 100% (  2 /  2) in 'Data.Semigroup.Compat.Repl'
+  86% (  6 /  7) in 'Data.String.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.String.Compat.Repl'
+  67% (  2 /  3) in 'Data.Type.Coercion.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Type.Coercion.Compat.Repl'
+  67% (  2 /  3) in 'Data.Version.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Version.Compat.Repl'
+  50% (  1 /  2) in 'Data.Void.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Void.Compat.Repl'
+  80% (  4 /  5) in 'Data.Word.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Data.Word.Compat.Repl'
+  83% (  5 /  6) in 'Debug.Trace.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Debug.Trace.Compat.Repl'
+  67% (  2 /  3) in 'Foreign.ForeignPtr.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Foreign.ForeignPtr.Compat.Repl'
+  90% ( 19 / 21) in 'Foreign.ForeignPtr.Safe.Compat'
+  Missing documentation for:
+    Module header
+    FinalizerEnvPtr
+ 100% (  2 /  2) in 'Foreign.ForeignPtr.Safe.Compat.Repl'
+  67% (  2 /  3) in 'Foreign.ForeignPtr.Unsafe.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Foreign.ForeignPtr.Unsafe.Compat.Repl'
+  75% (  3 /  4) in 'Foreign.Marshal.Alloc.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Foreign.Marshal.Alloc.Compat.Repl'
+  75% (  3 /  4) in 'Foreign.Marshal.Array.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Foreign.Marshal.Array.Compat.Repl'
+  86% (  6 /  7) in 'Foreign.Marshal.Safe.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Foreign.Marshal.Safe.Compat.Repl'
+  67% (  2 /  3) in 'Foreign.Marshal.Unsafe.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Foreign.Marshal.Unsafe.Compat.Repl'
+  67% (  2 /  3) in 'Foreign.Marshal.Utils.Compat'
+  Missing documentation for:
+    Module header
+  80% (  4 /  5) in 'Foreign.Marshal.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Foreign.Marshal.Compat.Repl'
+  67% (  2 /  3) in 'Foreign.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Foreign.Compat.Repl'
+ 100% (  2 /  2) in 'Foreign.Marshal.Utils.Compat.Repl'
+  80% (  4 /  5) in 'Numeric.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Numeric.Compat.Repl'
+  50% (  1 /  2) in 'Numeric.Natural.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Numeric.Natural.Compat.Repl'
+  84% (207 /246) in 'Prelude.Compat'
+  Missing documentation for:
+    Module header
+    even
+    odd
+    fmap
+    maxBound
+    minBound
+    **
+    acos
+    acosh
+    asin
+    asinh
+    atan
+    atanh
+    cos
+    cosh
+    exp
+    log
+    logBase
+    pi
+    sin
+    sinh
+    sqrt
+    tan
+    tanh
+    *
+    +
+    -
+    /=
+    ==
+    <
+    <=
+    >
+    >=
+    compare
+    max
+    min
+    Real
+    Bool
+    Ordering
+ 100% (  2 /  2) in 'Prelude.Compat.Repl'
+ 100% ( 10 / 10) in 'System.Environment.Compat'
+ 100% (  2 /  2) in 'System.Environment.Compat.Repl'
+  67% (  2 /  3) in 'System.Exit.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'System.Exit.Compat.Repl'
+  75% (  3 /  4) in 'System.IO.Unsafe.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'System.IO.Unsafe.Compat.Repl'
+  89% ( 16 / 18) in 'Text.Read.Compat'
+  Missing documentation for:
+    Module header
+    Lexeme
+ 100% (  2 /  2) in 'Text.Read.Compat.Repl'
+  67% (  2 /  3) in 'Type.Reflection.Compat'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Type.Reflection.Compat.Repl'
+Warning: Control.Monad.Compat: could not find link destinations for:
+    P
+Warning: Data.Functor.Compat: could not find link destinations for:
+    P
+Warning: Data.Functor.Const.Compat: could not find link destinations for:
+    unsafeIndex unsafeRangeSize
+Warning: Prelude.Compat: could not find link destinations for:
+    P HandleType
+Documentation created:
+dist/dist-sandbox-3b735470/doc/html/base-compat/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/base-compat-0.10.4-9FtFg9E90S5CFRyvxjUaaZ
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71382/base-compat-0.10.4'

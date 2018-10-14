@@ -1,0 +1,27 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71385/distributive-0.6'
+[1 of 1] Compiling Main             ( /var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71385/distributive-0.6/dist/dist-sandbox-3b735470/setup/setup.hs, /var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71385/distributive-0.6/dist/dist-sandbox-3b735470/setup/Main.o )
+Linking /var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71385/distributive-0.6/dist/dist-sandbox-3b735470/setup/setup ...
+Configuring distributive-0.6...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for distributive-0.6..
+Building library for distributive-0.6..
+[1 of 2] Compiling Data.Distributive ( src/Data/Distributive.hs, dist/dist-sandbox-3b735470/build/Data/Distributive.o )
+[2 of 2] Compiling Data.Distributive.Generic ( src/Data/Distributive/Generic.hs, dist/dist-sandbox-3b735470/build/Data/Distributive/Generic.o )
+[1 of 2] Compiling Data.Distributive ( src/Data/Distributive.hs, dist/dist-sandbox-3b735470/build/Data/Distributive.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 2] Compiling Data.Distributive.Generic ( src/Data/Distributive/Generic.hs, dist/dist-sandbox-3b735470/build/Data/Distributive/Generic.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for distributive-0.6..
+Running Haddock on library for distributive-0.6..
+Haddock coverage:
+ 100% (  4 /  4) in 'Data.Distributive'
+  75% (  3 /  4) in 'Data.Distributive.Generic'
+  Missing documentation for:
+    GDistributive (src/Data/Distributive/Generic.hs:51)
+Documentation created:
+dist/dist-sandbox-3b735470/doc/html/distributive/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/distributive-0.6-BVdaGkcXrlfAdJYEiqHBoW
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71385/distributive-0.6'

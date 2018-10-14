@@ -1,0 +1,17 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71384/dlist-0.8.0.5'
+Configuring dlist-0.8.0.5...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for dlist-0.8.0.5..
+Building library for dlist-0.8.0.5..
+[1 of 1] Compiling Data.DList       ( Data/DList.hs, dist/dist-sandbox-3b735470/build/Data/DList.o )
+[1 of 1] Compiling Data.DList       ( Data/DList.hs, dist/dist-sandbox-3b735470/build/Data/DList.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for dlist-0.8.0.5..
+Running Haddock on library for dlist-0.8.0.5..
+Haddock coverage:
+ 100% ( 20 / 20) in 'Data.DList'
+Documentation created: dist/dist-sandbox-3b735470/doc/html/dlist/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/dlist-0.8.0.5-I6CwXwt8UvhK996Lp3Q3y
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71384/dlist-0.8.0.5'

@@ -1,0 +1,20 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71384/time-locale-compat-0.1.1.5'
+Configuring time-locale-compat-0.1.1.5...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for time-locale-compat-0.1.1.5..
+Building library for time-locale-compat-0.1.1.5..
+[1 of 1] Compiling Data.Time.Locale.Compat ( src/Data/Time/Locale/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Time/Locale/Compat.o )
+[1 of 1] Compiling Data.Time.Locale.Compat ( src/Data/Time/Locale/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Time/Locale/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for time-locale-compat-0.1.1.5..
+Running Haddock on library for time-locale-compat-0.1.1.5..
+Haddock coverage:
+  86% (  6 /  7) in 'Data.Time.Locale.Compat'
+  Missing documentation for:
+    TimeLocale
+Documentation created:
+dist/dist-sandbox-3b735470/doc/html/time-locale-compat/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/time-locale-compat-0.1.1.5-DDznVvFVEsmlk0WqJppPg
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71384/time-locale-compat-0.1.1.5'

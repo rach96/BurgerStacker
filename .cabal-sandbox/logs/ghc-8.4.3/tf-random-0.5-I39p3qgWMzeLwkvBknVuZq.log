@@ -1,0 +1,62 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-77183/tf-random-0.5'
+Configuring tf-random-0.5...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for tf-random-0.5..
+Building library for tf-random-0.5..
+[1 of 4] Compiling System.Random.TF.Gen ( src/System/Random/TF/Gen.hs, dist/dist-sandbox-3b735470/build/System/Random/TF/Gen.o )
+[2 of 4] Compiling System.Random.TF.Init ( src/System/Random/TF/Init.hs, dist/dist-sandbox-3b735470/build/System/Random/TF/Init.o )
+
+src/System/Random/TF/Init.hs:94:5: warning: [-Wdeprecations]
+    In the use of ‘bitSize’ (imported from Data.Bits):
+    Deprecated: "Use 'bitSizeMaybe' or 'finiteBitSize' instead"
+   |
+94 |   | bitSize n > 64 = error "mkTFGen: case where size of Int > 64 not implemented"
+   |     ^^^^^^^
+[3 of 4] Compiling System.Random.TF ( src/System/Random/TF.hs, dist/dist-sandbox-3b735470/build/System/Random/TF.o )
+[4 of 4] Compiling System.Random.TF.Instances ( src/System/Random/TF/Instances.hs, dist/dist-sandbox-3b735470/build/System/Random/TF/Instances.o )
+[1 of 4] Compiling System.Random.TF.Gen ( src/System/Random/TF/Gen.hs, dist/dist-sandbox-3b735470/build/System/Random/TF/Gen.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 4] Compiling System.Random.TF.Init ( src/System/Random/TF/Init.hs, dist/dist-sandbox-3b735470/build/System/Random/TF/Init.p_o )
+
+src/System/Random/TF/Init.hs:94:5: warning: [-Wdeprecations]
+    In the use of ‘bitSize’ (imported from Data.Bits):
+    Deprecated: "Use 'bitSizeMaybe' or 'finiteBitSize' instead"
+   |
+94 |   | bitSize n > 64 = error "mkTFGen: case where size of Int > 64 not implemented"
+   |     ^^^^^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[3 of 4] Compiling System.Random.TF ( src/System/Random/TF.hs, dist/dist-sandbox-3b735470/build/System/Random/TF.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[4 of 4] Compiling System.Random.TF.Instances ( src/System/Random/TF/Instances.hs, dist/dist-sandbox-3b735470/build/System/Random/TF/Instances.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for tf-random-0.5..
+Running Haddock on library for tf-random-0.5..
+
+src/System/Random/TF/Init.hs:94:5: warning: [-Wdeprecations]
+    In the use of ‘bitSize’ (imported from Data.Bits):
+    Deprecated: "Use 'bitSizeMaybe' or 'finiteBitSize' instead"
+   |
+94 |   | bitSize n > 64 = error "mkTFGen: case where size of Int > 64 not implemented"
+   |     ^^^^^^^
+Haddock coverage:
+ 100% (  4 /  4) in 'System.Random.TF.Gen'
+  83% (  5 /  6) in 'System.Random.TF.Init'
+  Missing documentation for:
+    Module header
+ 100% (  7 /  7) in 'System.Random.TF'
+  33% (  1 /  3) in 'System.Random.TF.Instances'
+  Missing documentation for:
+    Random (src/System/Random/TF/Instances.hs:37)
+    randomEnum (src/System/Random/TF/Instances.hs:205)
+Documentation created:
+dist/dist-sandbox-3b735470/doc/html/tf-random/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/tf-random-0.5-I39p3qgWMzeLwkvBknVuZq
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-77183/tf-random-0.5'

@@ -1,0 +1,74 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71382/codec-0.2.1'
+Configuring codec-0.2.1...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for codec-0.2.1..
+Building library for codec-0.2.1..
+[1 of 4] Compiling Control.Monad.Codec ( src/Control/Monad/Codec.hs, dist/dist-sandbox-3b735470/build/Control/Monad/Codec.o )
+[2 of 4] Compiling Data.Aeson.Codec ( src/Data/Aeson/Codec.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Codec.o )
+[3 of 4] Compiling Data.Binary.Codec ( src/Data/Binary/Codec.hs, dist/dist-sandbox-3b735470/build/Data/Binary/Codec.o )
+[4 of 4] Compiling Data.Binary.Bits.Codec ( src/Data/Binary/Bits/Codec.hs, dist/dist-sandbox-3b735470/build/Data/Binary/Bits/Codec.o )
+[1 of 4] Compiling Control.Monad.Codec ( src/Control/Monad/Codec.hs, dist/dist-sandbox-3b735470/build/Control/Monad/Codec.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 4] Compiling Data.Aeson.Codec ( src/Data/Aeson/Codec.hs, dist/dist-sandbox-3b735470/build/Data/Aeson/Codec.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[3 of 4] Compiling Data.Binary.Codec ( src/Data/Binary/Codec.hs, dist/dist-sandbox-3b735470/build/Data/Binary/Codec.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[4 of 4] Compiling Data.Binary.Bits.Codec ( src/Data/Binary/Bits/Codec.hs, dist/dist-sandbox-3b735470/build/Data/Binary/Bits/Codec.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for codec-0.2.1..
+Running Haddock on library for codec-0.2.1..
+Haddock coverage:
+  60% (  3 /  5) in 'Control.Monad.Codec'
+  Missing documentation for:
+    Module header
+    Codec (src/Control/Monad/Codec.hs:22)
+  74% ( 14 / 19) in 'Data.Aeson.Codec'
+  Missing documentation for:
+    Module header
+    ObjectParser (src/Data/Aeson/Codec.hs:48)
+    ObjectBuilder (src/Data/Aeson/Codec.hs:49)
+    ArrayParser (src/Data/Aeson/Codec.hs:80)
+    ArrayBuilder (src/Data/Aeson/Codec.hs:81)
+   8% (  2 / 26) in 'Data.Binary.Codec'
+  Missing documentation for:
+    Module header
+    BinaryCodec (src/Data/Binary/Codec.hs:26)
+    word8 (src/Data/Binary/Codec.hs:37)
+    word16be (src/Data/Binary/Codec.hs:40)
+    word16le (src/Data/Binary/Codec.hs:43)
+    word16host (src/Data/Binary/Codec.hs:46)
+    word32be (src/Data/Binary/Codec.hs:49)
+    word32le (src/Data/Binary/Codec.hs:52)
+    word32host (src/Data/Binary/Codec.hs:55)
+    word64be (src/Data/Binary/Codec.hs:58)
+    word64le (src/Data/Binary/Codec.hs:61)
+    word64host (src/Data/Binary/Codec.hs:64)
+    wordhost (src/Data/Binary/Codec.hs:67)
+    int8 (src/Data/Binary/Codec.hs:70)
+    int16be (src/Data/Binary/Codec.hs:73)
+    int16le (src/Data/Binary/Codec.hs:76)
+    int16host (src/Data/Binary/Codec.hs:79)
+    int32be (src/Data/Binary/Codec.hs:82)
+    int32le (src/Data/Binary/Codec.hs:85)
+    int32host (src/Data/Binary/Codec.hs:88)
+    int64be (src/Data/Binary/Codec.hs:91)
+    int64le (src/Data/Binary/Codec.hs:94)
+    int64host (src/Data/Binary/Codec.hs:97)
+    inthost (src/Data/Binary/Codec.hs:100)
+  12% (  1 /  8) in 'Data.Binary.Bits.Codec'
+  Missing documentation for:
+    Module header
+    BitCodec (src/Data/Binary/Bits/Codec.hs:17)
+    bool (src/Data/Binary/Bits/Codec.hs:19)
+    word8 (src/Data/Binary/Bits/Codec.hs:25)
+    word16be (src/Data/Binary/Bits/Codec.hs:28)
+    word32be (src/Data/Binary/Bits/Codec.hs:31)
+    word64be (src/Data/Binary/Bits/Codec.hs:34)
+Documentation created: dist/dist-sandbox-3b735470/doc/html/codec/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/codec-0.2.1-szzlj6eq1WLPbucy5depQ
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71382/codec-0.2.1'

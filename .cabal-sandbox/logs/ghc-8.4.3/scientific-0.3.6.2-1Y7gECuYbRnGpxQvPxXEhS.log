@@ -1,0 +1,42 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71384/scientific-0.3.6.2'
+Configuring scientific-0.3.6.2...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for scientific-0.3.6.2..
+Building library for scientific-0.3.6.2..
+[1 of 5] Compiling GHC.Integer.Compat ( src/GHC/Integer/Compat.hs, dist/dist-sandbox-3b735470/build/GHC/Integer/Compat.o )
+[2 of 5] Compiling Utils            ( src/Utils.hs, dist/dist-sandbox-3b735470/build/Utils.o )
+[3 of 5] Compiling Data.Scientific  ( src/Data/Scientific.hs, dist/dist-sandbox-3b735470/build/Data/Scientific.o )
+[4 of 5] Compiling Data.Text.Lazy.Builder.Scientific ( src/Data/Text/Lazy/Builder/Scientific.hs, dist/dist-sandbox-3b735470/build/Data/Text/Lazy/Builder/Scientific.o )
+[5 of 5] Compiling Data.ByteString.Builder.Scientific ( src/Data/ByteString/Builder/Scientific.hs, dist/dist-sandbox-3b735470/build/Data/ByteString/Builder/Scientific.o )
+[1 of 5] Compiling GHC.Integer.Compat ( src/GHC/Integer/Compat.hs, dist/dist-sandbox-3b735470/build/GHC/Integer/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[2 of 5] Compiling Utils            ( src/Utils.hs, dist/dist-sandbox-3b735470/build/Utils.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[3 of 5] Compiling Data.Scientific  ( src/Data/Scientific.hs, dist/dist-sandbox-3b735470/build/Data/Scientific.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[4 of 5] Compiling Data.Text.Lazy.Builder.Scientific ( src/Data/Text/Lazy/Builder/Scientific.hs, dist/dist-sandbox-3b735470/build/Data/Text/Lazy/Builder/Scientific.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[5 of 5] Compiling Data.ByteString.Builder.Scientific ( src/Data/ByteString/Builder/Scientific.hs, dist/dist-sandbox-3b735470/build/Data/ByteString/Builder/Scientific.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for scientific-0.3.6.2..
+Running Haddock on library for scientific-0.3.6.2..
+Haddock coverage:
+ 100% ( 31 / 31) in 'Data.Scientific'
+  75% (  3 /  4) in 'Data.Text.Lazy.Builder.Scientific'
+  Missing documentation for:
+    Module header
+  75% (  3 /  4) in 'Data.ByteString.Builder.Scientific'
+  Missing documentation for:
+    Module header
+Warning: Data.Scientific: could not find link destinations for:
+    whenFloating
+Documentation created:
+dist/dist-sandbox-3b735470/doc/html/scientific/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/scientific-0.3.6.2-1Y7gECuYbRnGpxQvPxXEhS
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71384/scientific-0.3.6.2'

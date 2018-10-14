@@ -1,0 +1,155 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-69619/primitive-0.6.4.0'
+Configuring primitive-0.6.4.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for primitive-0.6.4.0..
+Building library for primitive-0.6.4.0..
+[ 1 of 15] Compiling Control.Monad.Primitive ( Control/Monad/Primitive.hs, dist/dist-sandbox-3b735470/build/Control/Monad/Primitive.o )
+[ 2 of 15] Compiling Data.Primitive.Internal.Compat ( Data/Primitive/Internal/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/Internal/Compat.o )
+[ 3 of 15] Compiling Data.Primitive.Array ( Data/Primitive/Array.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/Array.o )
+[ 4 of 15] Compiling Data.Primitive.MVar ( Data/Primitive/MVar.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/MVar.o )
+[ 5 of 15] Compiling Data.Primitive.MachDeps ( Data/Primitive/MachDeps.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/MachDeps.o )
+[ 6 of 15] Compiling Data.Primitive.Internal.Operations ( Data/Primitive/Internal/Operations.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/Internal/Operations.o )
+[ 7 of 15] Compiling Data.Primitive.MutVar ( Data/Primitive/MutVar.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/MutVar.o )
+[ 8 of 15] Compiling Data.Primitive.SmallArray ( Data/Primitive/SmallArray.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/SmallArray.o )
+[ 9 of 15] Compiling Data.Primitive.Types ( Data/Primitive/Types.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/Types.o )
+[10 of 15] Compiling Data.Primitive.ByteArray ( Data/Primitive/ByteArray.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/ByteArray.o )
+[11 of 15] Compiling Data.Primitive.PrimArray ( Data/Primitive/PrimArray.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/PrimArray.o )
+[12 of 15] Compiling Data.Primitive.Ptr ( Data/Primitive/Ptr.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/Ptr.o )
+[13 of 15] Compiling Data.Primitive.Addr ( Data/Primitive/Addr.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/Addr.o )
+[14 of 15] Compiling Data.Primitive.UnliftedArray ( Data/Primitive/UnliftedArray.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/UnliftedArray.o )
+[15 of 15] Compiling Data.Primitive   ( Data/Primitive.hs, dist/dist-sandbox-3b735470/build/Data/Primitive.o )
+[ 1 of 15] Compiling Control.Monad.Primitive ( Control/Monad/Primitive.hs, dist/dist-sandbox-3b735470/build/Control/Monad/Primitive.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 2 of 15] Compiling Data.Primitive.Internal.Compat ( Data/Primitive/Internal/Compat.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/Internal/Compat.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 3 of 15] Compiling Data.Primitive.Array ( Data/Primitive/Array.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/Array.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 4 of 15] Compiling Data.Primitive.MVar ( Data/Primitive/MVar.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/MVar.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 5 of 15] Compiling Data.Primitive.MachDeps ( Data/Primitive/MachDeps.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/MachDeps.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 6 of 15] Compiling Data.Primitive.Internal.Operations ( Data/Primitive/Internal/Operations.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/Internal/Operations.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 7 of 15] Compiling Data.Primitive.MutVar ( Data/Primitive/MutVar.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/MutVar.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 8 of 15] Compiling Data.Primitive.SmallArray ( Data/Primitive/SmallArray.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/SmallArray.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[ 9 of 15] Compiling Data.Primitive.Types ( Data/Primitive/Types.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/Types.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[10 of 15] Compiling Data.Primitive.ByteArray ( Data/Primitive/ByteArray.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/ByteArray.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[11 of 15] Compiling Data.Primitive.PrimArray ( Data/Primitive/PrimArray.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/PrimArray.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[12 of 15] Compiling Data.Primitive.Ptr ( Data/Primitive/Ptr.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/Ptr.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[13 of 15] Compiling Data.Primitive.Addr ( Data/Primitive/Addr.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/Addr.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[14 of 15] Compiling Data.Primitive.UnliftedArray ( Data/Primitive/UnliftedArray.hs, dist/dist-sandbox-3b735470/build/Data/Primitive/UnliftedArray.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+[15 of 15] Compiling Data.Primitive   ( Data/Primitive.hs, dist/dist-sandbox-3b735470/build/Data/Primitive.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for primitive-0.6.4.0..
+Running Haddock on library for primitive-0.6.4.0..
+Haddock coverage:
+  81% ( 17 / 21) in 'Control.Monad.Primitive'
+  Missing documentation for:
+    unsafeInlinePrim (Control/Monad/Primitive.hs:271)
+    unsafeInlineIO (Control/Monad/Primitive.hs:275)
+    unsafeInlineST (Control/Monad/Primitive.hs:279)
+    touch (Control/Monad/Primitive.hs:283)
+  88% ( 22 / 25) in 'Data.Primitive.Array'
+  Missing documentation for:
+    runArray (Data/Primitive/Array.hs:325)
+    sizeofArray (Data/Primitive/Array.hs:87)
+    sizeofMutableArray (Data/Primitive/Array.hs:91)
+  91% ( 10 / 11) in 'Data.Primitive.MVar'
+  Missing documentation for:
+    MVar (Data/Primitive/MVar.hs:41)
+   3% (  1 / 35) in 'Data.Primitive.MachDeps'
+  Missing documentation for:
+    sIZEOF_CHAR (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_CHAR (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_INT (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_INT (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_WORD (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_WORD (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_DOUBLE (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_DOUBLE (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_FLOAT (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_FLOAT (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_PTR (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_PTR (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_FUNPTR (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_FUNPTR (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_STABLEPTR (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_STABLEPTR (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_INT8 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_INT8 (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_WORD8 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_WORD8 (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_INT16 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_INT16 (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_WORD16 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_WORD16 (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_INT32 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_INT32 (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_WORD32 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_WORD32 (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_INT64 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_INT64 (Data/Primitive/MachDeps.hs:19)
+    sIZEOF_WORD64 (Data/Primitive/MachDeps.hs:19)
+    aLIGNMENT_WORD64 (Data/Primitive/MachDeps.hs:19)
+    Word64_# (Data/Primitive/MachDeps.hs:120)
+    Int64_# (Data/Primitive/MachDeps.hs:121)
+ 100% (  9 /  9) in 'Data.Primitive.MutVar'
+  79% ( 19 / 24) in 'Data.Primitive.SmallArray'
+  Missing documentation for:
+    SmallArray (Data/Primitive/SmallArray.hs:109)
+    SmallMutableArray (Data/Primitive/SmallArray.hs:146)
+    runSmallArray (Data/Primitive/SmallArray.hs:478)
+    sizeofSmallArray (Data/Primitive/SmallArray.hs:395)
+    sizeofSmallMutableArray (Data/Primitive/SmallArray.hs:403)
+ 100% (  8 /  8) in 'Data.Primitive.Types'
+  90% ( 36 / 40) in 'Data.Primitive.ByteArray'
+  Missing documentation for:
+    ByteArray#
+    MutableByteArray#
+    byteArrayFromList (Data/Primitive/ByteArray.hs:271)
+    byteArrayFromListN (Data/Primitive/ByteArray.hs:274)
+  95% ( 58 / 61) in 'Data.Primitive.PrimArray'
+  Missing documentation for:
+    readPrimArray (Data/Primitive/PrimArray.hs:301)
+    primArrayFromList (Data/Primitive/PrimArray.hs:196)
+    primArrayFromListN (Data/Primitive/PrimArray.hs:199)
+ 100% ( 16 / 16) in 'Data.Primitive.Ptr'
+ 100% ( 19 / 19) in 'Data.Primitive.Addr'
+  94% ( 33 / 35) in 'Data.Primitive.UnliftedArray'
+  Missing documentation for:
+    unliftedArrayFromList (Data/Primitive/UnliftedArray.hs:608)
+    unliftedArrayFromListN (Data/Primitive/UnliftedArray.hs:611)
+ 100% ( 12 / 12) in 'Data.Primitive'
+Warning: Data.Primitive.Ptr: could not find link destinations for:
+    D:R:UReckPtrp0
+Documentation created:
+dist/dist-sandbox-3b735470/doc/html/primitive/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/primitive-0.6.4.0-39Pwmm1zkQX6bM7xFUT3Jc
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-69619/primitive-0.6.4.0'

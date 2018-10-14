@@ -1,0 +1,40 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71383/random-1.1'
+Warning: random.cabal:15:2: Tabs used as indentation at 15:2, 16:2, 17:2
+Configuring random-1.1...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for random-1.1..
+Building library for random-1.1..
+[1 of 1] Compiling System.Random    ( System/Random.hs, dist/dist-sandbox-3b735470/build/System/Random.o )
+
+System/Random.hs:43:1: warning: [-Wtabs]
+    Tab character found here, and in 74 further locations.
+    Please use spaces instead.
+   |
+43 |         (
+   | ^^^^^^^^
+[1 of 1] Compiling System.Random    ( System/Random.hs, dist/dist-sandbox-3b735470/build/System/Random.p_o )
+
+System/Random.hs:43:1: warning: [-Wtabs]
+    Tab character found here, and in 74 further locations.
+    Please use spaces instead.
+   |
+43 |         (
+   | ^^^^^^^^
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for random-1.1..
+Running Haddock on library for random-1.1..
+
+System/Random.hs:43:1: warning: [-Wtabs]
+    Tab character found here, and in 74 further locations.
+    Please use spaces instead.
+   |
+43 |         (
+   | ^^^^^^^^
+Haddock coverage:
+Cannot find documentation for: $intro
+ 100% ( 16 / 16) in 'System.Random'
+Documentation created: dist/dist-sandbox-3b735470/doc/html/random/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/random-1.1-9LLJAJa4iQFLJiLXBOBXBV
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71383/random-1.1'

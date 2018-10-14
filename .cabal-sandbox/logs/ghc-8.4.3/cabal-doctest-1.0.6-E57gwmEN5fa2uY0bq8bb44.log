@@ -1,0 +1,18 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71384/cabal-doctest-1.0.6'
+Configuring cabal-doctest-1.0.6...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for cabal-doctest-1.0.6..
+Building library for cabal-doctest-1.0.6..
+[1 of 1] Compiling Distribution.Extra.Doctest ( src/Distribution/Extra/Doctest.hs, dist/dist-sandbox-3b735470/build/Distribution/Extra/Doctest.o )
+[1 of 1] Compiling Distribution.Extra.Doctest ( src/Distribution/Extra/Doctest.hs, dist/dist-sandbox-3b735470/build/Distribution/Extra/Doctest.p_o )
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+ignoring (possibly broken) abi-depends field for packages
+Preprocessing library for cabal-doctest-1.0.6..
+Running Haddock on library for cabal-doctest-1.0.6..
+Haddock coverage:
+ 100% (  6 /  6) in 'Distribution.Extra.Doctest'
+Documentation created:
+dist/dist-sandbox-3b735470/doc/html/cabal-doctest/index.html
+Installing library in /Users/rachelsunderland/Documents/BurgerStacker/.cabal-sandbox/lib/x86_64-osx-ghc-8.4.3/cabal-doctest-1.0.6-E57gwmEN5fa2uY0bq8bb44
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-71384/cabal-doctest-1.0.6'
