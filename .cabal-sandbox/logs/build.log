@@ -508,3 +508,43 @@ dependencies: JuicyPixels-3.3.2 base-4.11.1.0 bmp-1.2.6.3
 install-outcome: InstallOk
 docs-outcome: Ok
 tests-outcome: NotTried
+
+package: gloss-game-0.3.3.0
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: base-4.11.1.0 gloss-1.13.0.1 gloss-juicy-0.2.3
+install-outcome: BuildFailed
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: gloss-game-0.3.3.0
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: base-4.11.1.0 gloss-1.13.0.1 gloss-juicy-0.2.3
+install-outcome: BuildFailed
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: gloss-game-0.3.3.0
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: base-4.11.1.0 gloss-1.13.0.1 gloss-juicy-0.2.3
+install-outcome: BuildFailed
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: gloss-game-0.3.2.0
+os: osx
+arch: x86_64
+compiler: ghc-8.4.3
+client: cabal-install-2.2.0.0
+dependencies: base-4.11.1.0 gloss-1.13.0.1 gloss-juicy-0.2.3
+install-outcome: BuildFailed
+docs-outcome: NotTried
+tests-outcome: NotTried

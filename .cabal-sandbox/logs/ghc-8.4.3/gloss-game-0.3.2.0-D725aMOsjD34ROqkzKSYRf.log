@@ -1,0 +1,17 @@
+cabal: Entering directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-17109/gloss-game-0.3.2.0'
+Configuring gloss-game-0.3.2.0...
+clang: warning: argument unused during compilation: '-nopie' [-Wunused-command-line-argument]
+Preprocessing library for gloss-game-0.3.2.0..
+Building library for gloss-game-0.3.2.0..
+[1 of 1] Compiling Graphics.Gloss.Game ( Graphics/Gloss/Game.hs, dist/dist-sandbox-3b735470/build/Graphics/Gloss/Game.o )
+
+Graphics/Gloss/Game.hs:100:14: error:
+    • The constructor ‘G.Bitmap’ should have 1 argument, but has been given 4
+    • In the pattern: G.Bitmap w h _ _
+      In an equation for ‘boundingBox’:
+          boundingBox (G.Bitmap w h _ _)
+            = ((0, 0), (fromIntegral w, fromIntegral h))
+    |
+100 | boundingBox (G.Bitmap w h _ _)         = ((0, 0), (fromIntegral w, fromIntegral h))
+    |              ^^^^^^^^^^^^^^^^
+cabal: Leaving directory '/var/folders/75/jx0_m1kn3h1b6grbfph404580000gn/T/cabal-tmp-17109/gloss-game-0.3.2.0'
